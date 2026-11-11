@@ -28,7 +28,7 @@ Extended system extras (Extended only):
   * AGG-conditioned rules (``agg_value`` G/D) fire when the controller lemma
     carries that AGG value in the lexicon given via --agg-lexicon
     (TSV with a lemma column [lemma/lemma_ar] and an AGG column
-    [agg/aggregation], values A/C/G/D). Without --agg-lexicon these rules
+    [agg/aggregation/AGR], values A/C/G/D). Without --agg-lexicon these rules
     never fire.
   * Dual-gender (common-gender) nouns: a lexical lookup against
     --dual-gender (default: rules/dual_gender_nouns.tsv). If the controller
@@ -52,7 +52,7 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_RULES = REPO_ROOT / "rules" / "rule_inventory.tsv"
 DEFAULT_DUAL = REPO_ROOT / "rules" / "dual_gender_nouns.tsv"
 
@@ -168,10 +168,10 @@ def load_agg_lexicon(path: Path):
                     if c.lower() in ("lemma", "lemma_ar", "form", "noun_form",
                                      "inflected_form_ar")]
         agg_cols = [c for c in cols
-                    if c.lower() in ("agg", "agg_value", "aggregation")]
+                    if c.lower() in ("agg", "agg_value", "aggregation", "agr")]
         if not key_cols or not agg_cols:
             sys.exit(f"ERROR: --agg-lexicon {path} needs a lemma column "
-                     f"(lemma/lemma_ar) and an AGG column (agg/aggregation); "
+                     f"(lemma/lemma_ar) and an AGG column (agg/aggregation/AGR); "
                      f"found columns: {cols}")
         for row in reader:
             vals = {v.upper() for v in re.split(r"[^A-Za-z]+", row[agg_cols[0]] or "")
@@ -485,7 +485,7 @@ def main():
                     help=f"Rule inventory TSV (default: {DEFAULT_RULES})")
     ap.add_argument("--out", required=True, help="Output directory")
     ap.add_argument("--agg-lexicon", type=Path, default=None,
-                    help="AGG lexicon TSV (lemma + agg columns, values "
+                    help="AGG lexicon TSV (lemma + agg/AGR columns, values "
                          "A/C/G/D). Without it, AGG-conditioned Extended "
                          "rules never fire.")
     ap.add_argument("--dual-gender", type=Path, default=DEFAULT_DUAL,

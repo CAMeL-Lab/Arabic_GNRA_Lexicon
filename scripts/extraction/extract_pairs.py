@@ -15,7 +15,7 @@ One entry point for the nine constructions evaluated in the paper:
   --construction all   run everything
 
 PURE STRUCTURAL EXTRACTION: no agreement predictions here — those are produced
-later by validation/validate_pairs.py, which fills the pred_*/match_* columns.
+later by scripts/validation/validate_pairs.py, which fills the pred_*/match_* columns.
 
 Two extraction-time filters apply to Noun-Adjective (such pairs are never
 emitted):

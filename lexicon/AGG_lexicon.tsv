@@ -1,0 +1,953 @@
+ID	AGR	Lemma	Gloss	Form	func_gen	func_num	rat	GNR_default	Extra_agreement
+1	D	دَوْلَة	state	دولة	f	s	i	FS 	MP 
+2	D	دَوْلَة	state	دول	f	p	i	FS 	MP 
+3	D	مَجْمُوعَة	group	جموع	m	p	i	FS 	MP 
+4	D	مَجْمُوعَة	group	مَجْمُوعَات	f	p	i	FS 	MP 
+5	D	مَجْمُوعَة	group	مَجْمُوعَة	f	s	i	FS 	MP 
+6	D	شَرِكَة	company	شركة	f	s	i	FS 	MP 
+7	D	شَرِكَة	company	شَرِكَات	f	p	i	FS 	MP 
+8	D	حَرَكَة	movement	حركة	f	s	i	FS 	MP 
+9	D	حَرَكَة	movement	حَرَكَات	f	p	i	FS 	MP 
+10	D	جِهَاز	agency	جهاز	m	s	i	FS 	MP 
+11	D	سُلَالَة	dynasty	سلالة	f	s	r	FS 	MP 
+12	D	سُلَالَة	dynasty	سلالات	f	p	i	FS 	MP 
+13	D	مُؤَسَّسَة	institution	مؤسسة	f	s	i	FS 	MP 
+14	D	مُؤَسَّسَة	institution	مُؤَسَّسَات	f	p	i	FS 	MP 
+15	D	مَجْلِس	council	مجالس	m	p	i	FS 	MP 
+16	D	مَجْلِس	council	مَجْلِس	m	s	i	FS 	MP 
+17	D	حُكُومَة	government	حكومة	f	s	i	FS 	MP 
+18	D	حُكُومَة	government	حكومات	f	p	i	FS 	MP 
+19	D	اِتِّحَاد	union	اتحاد	m	s	i	FS 	MP 
+20	D	اِتِّحَاد	union	اتحادات	m	p	i	FS 	MP 
+21	D	مَرْكَز	center	مركز	m	s	i	FS 	MP 
+22	D	مَرْكَز	center	مراكز	m	p	i	FS 	MP 
+23	D	أُمَّة	nation	أمم	f	p	i	FS 	MP 
+24	D	أُمَّة	nation	أمة	f	s	i	FS 	MP 
+25	D	مَمْلَكَة	kingdom	مملكة	f	s	i	FS 	MP 
+26	D	مَمْلَكَة	kingdom	مملكات	f	p	i	FS 	MP 
+27	D	أُسْرَة	family	أُسْر	m	s	i	FS 	MP 
+28	D	أُسْرَة	family	أسرة	f	s	i	FS 	MP 
+29	D	شَعْب	people	شعوب	m	p	i	FS 	MP 
+30	D	شَعْب	people	شَعْب	m	s	i	FS 	MP 
+31	D	جِهَة	entity	جهة	f	s	i	FS 	MP 
+32	D	جِهَة	entity	جِهَات	f	p	i	FS 	MP 
+33	D	جِيل	generation	أجيال	m	p	i	FS 	MP 
+34	D	جِيل	generation	جِيل	m	s	i	FS 	MP 
+35	D	فِرْقَة	group	فرق	f	p	i	FS 	MP 
+36	D	رُفْقَة	company	رفقة	f	p	i	FS 	MP 
+37	D	فِرْقَة	band	فِرْقَة	f	s	i	FS 	MP 
+38	D	لَجْنَة	committee	لجنة	f	s	i	FS 	MP 
+39	D	لَجْنَة	committee	لجان	f	p	i	FS 	MP 
+40	D	سُلْطَة	authority	سلطة	f	s	i	FS 	MP 
+41	D	سُلْطَة	authority	سُلْطَات	f	p	i	FS 	MP 
+42	D	وِلايَة	province	ولاية	f	s	i	FS 	MP 
+43	D	جَيْش	army	جيوش	m	p	i	FS 	MP 
+44	D	جَيْش	army	جَيْش	m	s	i	FS 	MP 
+45	D	فَرِيق	team	فريق	m	s	i	FS 	MP 
+46	D	فَرِيق	team	فرق	m	p	i	FS 	MP 
+47	D	طَبَقَة	class	طبقة	f	s	i	FS 	MP 
+48	D	فِئَة	category	فئة	f	s	i	FS 	MP 
+49	D	فِئَة	category	فئات	f	p	i	FS 	MP 
+50	D	جَمَاعَة	group	جماعة	f	s	i	FS 	MP 
+51	D	جَمَاعَة	group	جَماعات	f	p	i	FS 	MP 
+52	D	شَبَكَة	network	شبكة	f	s	i	FS 	MP 
+53	D	قِسْم	department	قسم	m	s	i	FS 	MP 
+54	D	قِسْم	department	اقسام	m	p	i	FS 	MP 
+55	D	نَاس	people	ناس	m	p	i	FS 	MP 
+56	D	عُصْبَة	league	عصبة	f	s	i	FS 	MP 
+57	D	وِزارَة	ministry	وزارة	f	s	i	FS 	MP 
+58	D	وِزارَة	ministry	وزارات	f	p	i	FS 	MP 
+59	D	حَمْلَة	campaign	حملة	f	s	i	FS 	MP 
+60	D	حَمْلَة	campaign	حَمْلَات	f	p	i	FS 	MP 
+61	D	قَناة	channel	قناة	f	s	i	FS 	MP 
+62	D	حَضارَة	civilization	حضارة	f	s	i	FS 	MP 
+63	D	صَحِيفَة	newspaper	صحيفة	f	s	i	FS 	MP 
+64	D	مَدْرَسَة	school	مدرسة	f	s	i	FS 	MP 
+65	D	وِكالَة	agency	وكالة	f	s	i	FS 	MP 
+66	D	وِكالَة	agency	وِكالَات	f	p	i	FS 	MP 
+67	D	هَيْئَة	body	هيئة	f	s	i	FS 	MP 
+68	D	نَادٍ	club	نادي	m	s	i	FS 	MP 
+69	D	قَبِيلَة	tribe	قبائل	f	p	i	FS 	MP 
+70	D	قَبِيلَة	tribe	قَبِيلَة	f	s	i	FS 	MP 
+71	D	جُمْهُور	audience	جماهير	m	p	i	FS 	MP 
+72	D	جُمْهُور	audience	جُمْهُور	m	s	i	FS 	MP 
+73	D	مُؤْتَمَر	conference	مؤتمر	m	s	i	FS 	MP 
+74	D	بَنْك	bank	بنك	m	s	i	FS 	MP 
+75	D	تَيَّار	movement	تيار	m	s	i	FS 	MP 
+76	D	حِزْب	political party	أحزاب	m	p	i	FS 	MP 
+77	D	حِزْب	political party	حِزْب	m	s	i	FS 	MP 
+78	D	أَهْل	family	أهالي	m	p	r	FS 	MP 
+79	D	أَهْل	family	أَهْل	m	s	r	FS 	MP 
+80	D	صَفّ	row	صفوف	m	p	i	FS 	MP 
+81	D	صَفّ	row	صَفّ	m	s	i	FS 	MP 
+82	D	جَمْعِيَّة	association	جمعية	f	s	i	FS 	MP 
+83	D	عَائِلَة	family	عائلة	f	s	i	FS 	MP 
+84	D	عَائِلَة	family	عائلات	f	p	i	FS 	MP 
+85	D	مُنَظَّمَة	organization	منظمة	f	s	i	FS 	MP 
+86	D	رَابِطَة	association	رابطة	f	s	i	FS 	MP 
+87	D	كُتْلَة	bloc	كتلة	f	s	i	FS 	MP 
+88	D	مُبَادَرَة	initiative	مبادرة	f	s	i	FS 	MP 
+89	D	دَائِرَة	department	دائرة	f	s	i	FS 	MP 
+90	D	إِمارَة	emirate	إمارة	f	s	i	FS 	MP 
+91	D	إِدارَة	administration	إدارة	f	s	i	FS 	MP 
+92	D	قِيادَة	leadership	قيادة	f	s	i	FS 	MP 
+93	D	قِيَادَة	leadership	قيادات	f	s	i	FS 	MP 
+94	D	جَامِعَة	university	جامعة	f	s	i	FS 	MP 
+95	D	مَجَلَّة	magazine	مجلة	f	s	i	FS 	MP 
+96	D	وَفْد	delegation	وفود	m	p	i	FS 	MP 
+97	D	وَفْد	delegation	وَفْد	m	s	i	FS 	MP 
+98	D	نُخْبَة	elite	نخب	f	p	i	FS 	MP 
+99	D	نُخْبَة	elite	نُخْبَة	f	s	i	FS 	MP 
+100	D	جُمْهُور	audience	جماهير	m	p	i	FS 	MP 
+101	D	طائِفَة	sect	طوائف	f	p	i	FS 	MP 
+102	D	طائِفَة	sect	طائِفَة	f	s	i	FS 	MP 
+103	D	شَرِيحَة	segment	شرائح	f	p	i	FS 	MP 
+104	D	شَرِيحَة	segment	شَرِيحَة	f	s	i	FS 	MP 
+105	D	مَصْرِف	bank	مصرف	m	s	i	FS 	MP 
+106	D	مَصْرِف	bank	مصارف	m	p	i	FS 	MP 
+107	D	مَكْتَب	office	مكتب	m	s	i	FS 	MP 
+108	D	كادِر	cadre	كوادر	m	p	i	FS 	MP 
+109	D	كادِر	cadre	كادِر	m	s	i	FS 	MP 
+110	D	صُنْدُوق	fund	صندوق	m	s	i	FS 	MP 
+111	D	مَحْكَمَة	court	محكمة	f	s	i	FS 	MP 
+112	D	مِحْوَر	alliance/bloc	محور	m	s	i	FS 	MP 
+113	D	قَرْيَة	village	قرية	f	s	i	FS 	MP 
+114	D	تَنْظِيم	organization	تنظيم	m	s	i	FS 	MP 
+115	D	إِمْبِراطُورِيَّة	empire	إمبراطورية	f	s	i	FS 	MP 
+116	D	مَذْهَب	sect	مذهب	m	s	i	FS 	MP 
+117	D	مَحَطَّة	station	محطة	f	s	i	FS 	MP 
+118	D	قِمَّة	summit	قمة	f	s	i	FS 	MP 
+119	D	مَعْهَد	institute	معهد	m	s	i	FS 	MP 
+120	D	شُرْطَة	police	شرطة	f	s	i	FS 	MP 
+121	D	شَرْطَة	dash	شرطة	f	s	i	FS 	MP 
+122	D	قَوْم	people	قوم	m	s	i	FS 	MP 
+123	D	مُقَاوَمَة	resistance	مقاومة	f	s	i	FS 	MP 
+124	D	مَنْظُومَة	system	منظومة	f	s	i	FS 	MP 
+125	D	مُنْشَأَة	facility	منشأة	f	s	i	FS 	MP 
+126	D	سَلَف	ancestor	أسلاف	m	p	r	FS 	MP 
+127	D	سَلَف	ancestor	سَلَف	m	s	r	FS 	MP 
+128	D	عَيِّنَة	sample	عينة	f	s	i	FS 	MP 
+129	D	حُضُور	audience	حضور	m	p	r	FS 	MP 
+130	D	جُمْهُورِيَّة	republic	جمهورية	f	s	i	FS 	MP 
+131	D	جَرِيدَة	newspaper	جريدة	f	s	i	FS 	MP 
+132	D	مَجْمَع	academy	مجمع	m	s	i	FS 	MP 
+133	D	كُلِّيَّة	college	كلية	f	s	i	FS 	MP 
+134	D	دِيوَان	bureau	ديوان	m	s	i	FS 	MP 
+135	D	عِرْق	ethnicity	أعراق	m	p	i	FS 	MP 
+136	D	عِرْق	ethnicity	عِرْق	m	s	i	FS 	MP 
+137	D	عِصابَة	gang	عصابة	f	s	i	FS 	MP 
+138	D	سِلْك	corps	سلك	m	s	i	FS 	MP 
+139	D	بَقِيَّة	remainder	بقية	f	s	i	FS 	MP 
+140	D	كِيَان	entity	كيان	m	s	i	FS 	MP 
+141	D	حَشْد	crowd	حشد	m	s	i	FS 	MP 
+142	D	حَشْد	crowd	حشود	m	p	i	FS 	MP 
+143	D	تَجَمُّع	gathering	تجمع	m	s	i	FS 	MP 
+144	D	بَعْثَة	mission	بعثة	f	s	i	FS 	MP 
+145	D	جَمْع	group	جمع	m	s	i	FS 	MP 
+146	D	مُنْتَدًى	forum	منتدى	m	s	i	FS 	MP 
+147	D	نَدْوَة	seminar	ندوة	f	s	i	FS 	MP 
+148	D	مُلْتَقًى	forum	ملتقى	m	s	i	FS 	MP 
+149	D	قافِلَة	caravan	قوافل	f	p	i	FS 	MP 
+150	D	قافِلَة	caravan	قافِلَة	f	s	i	FS 	MP 
+151	D	أَمَانَة	secretariat	أمانة	f	s	i	FS 	MP 
+152	D	طاقِم	crew	طواقم	m	p	i	FS 	MP 
+153	D	طاقِم	crew	طاقِم	m	s	i	FS 	MP 
+154	D	نِيابَة	prosecution	نيابة	f	s	i	FS 	MP 
+155	D	إِذاعَة	radio	إذاعة	f	s	i	FS 	MP 
+156	D	صَحافَة	press	صحافة	f	s	i	FS 	MP 
+157	D	هِجْرَة	migration	هجرة	f	s	i	FS 	MP 
+158	D	بَشَر	humans	بشر	m	p	r	FS 	MP 
+159	D	كَنِيسَة	church	كنيسة	f	s	i	FS 	MP 
+160	D	بَرْلَمَان	parliament	برلمان	m	s	i	FS 	MP 
+161	D	بُورْصَة	stock exchange	بورصة	f	s	i	FS 	MP 
+162	D	مُعارَضَة	opposition	معارضة	f	s	i	FS 	MP 
+163	D	جَبْهَة	front	جبهة	f	s	i	FS 	MP 
+164	D	فَصِيل	faction	فصائل	m	p	i	FS 	MP 
+165	D	جالِيَة	community	جالية	f	s	i	FS 	MP 
+166	D	دَوْرِيَّة	patrol	دورية	f	s	i	FS 	MP 
+167	D	كَتِيبَة	battalion	كتائب	f	p	i	FS 	MP 
+168	D	كَتِيبَة	battalion	كَتِيبَة	f	s	i	FS 	MP 
+169	D	سَرِيَّة	company	سرايا	f	p	i	FS 	MP 
+170	D	سَرِيَّة	company	سَرِيَّة	f	s	i	FS 	MP 
+171	D	دُفْعَة	cohort	دفعة	f	s	i	FS 	MP 
+172	D	خِلَافَة	caliphate	خلافة	f	s	i	FS 	MP 
+173	D	زُمْرَة	clique	زمرة	f	s	i	FS 	MP 
+174	D	أَكَادِيمِيَّة	academy	أكاديمية	f	s	i	FS 	MP 
+175	D	مُحافَظَة	governorate	محافظة	f	s	i	FS 	MP 
+176	D	سِفارَة	embassy	سفارة	f	s	i	FS 	MP 
+177	D	طابُور	queue	طوابير	m	p	i	FS 	MP 
+178	D	طابُور	queue	طابُور	m	s	i	FS 	MP 
+179	D	مَحْفِل	assembly	محفل	m	s	i	FS 	MP 
+180	D	نَفَر	group	نفر	m	s	i	FS 	MP 
+181	D	مِيلِيشِيَا	militia	ميليشيات	f	p	i	FS 	MP 
+182	D	مِيلِيشِيَا	militia	ميليشيا	f	p	i	FS 	MP 
+183	D	رِئاسَة	presidency	رئاسة	f	s	i	FS 	MP 
+184	D	مَوْكِب	procession	موكب	m	s	i	FS 	MP 
+185	D	حِلْف	alliance	حلف	m	s	i	FS 	MP 
+186	D	عَسْكَر	soldiers	عسكر	m	s	i	FS 	MP 
+187	D	عَسْكَر	soldiers	عساكر	m	p	i	FS 	MP 
+188	D	أَقَلِّيَّة	minority	أقلية	f	s	i	FS 	MP 
+189	D	نِقابَة	union	نقابة	f	s	i	FS 	MP 
+190	D	مُدِيرِيَّة	directorate	مديرية	f	s	i	FS 	MP 
+191	D	لِوَاء	brigade	لواء	m	s	i	FS 	MP 
+192	D	حَصِيلَة	total	حصيلة	f	s	i	FS 	MP 
+193	D	مُسْتَوْطَنَة	settlement	مستوطنة	f	s	i	FS 	MP 
+194	D	بَشَرِيَّة	humanity	بشرية	f	s	i	FS 	MP 
+195	D	سَلْطَنَة	sultanate	سلطنة	f	s	i	FS 	MP 
+196	D	رَعِيَّة	subjects	رعايا	f	p	i	FS 	MP 
+197	D	رَعِيَّة	subjects	رَعِيَّة	f	s	i	FS 	MP 
+198	D	مُفَوَّضِيَّة	commission	مفوضية	f	s	i	FS 	MP 
+199	D	بَلَدِيَّة	municipality	بلدية	f	s	i	FS 	MP 
+200	D	دَيْر	monastery	دير	m	s	i	FS 	MP 
+201	D	عَشِيرَة	clan	عشيرة	f	s	i	FS 	MP 
+202	D	فَوْج	regiment	فوج	m	s	i	FS 	MP 
+203	D	خَلَف	successor	خلف	m	s	i	FS 	MP 
+204	D	نَفِير	mobilization	نفير	m	s	i	FS 	MP 
+205	D	حَاشِيَة	entourage	حاشية	f	s	i	FS 	MP 
+206	D	مَنْدُوبِيَّة	delegation	مندوبية	f	s	i	FS 	MP 
+207	D	قُنْصُلِيَّة	consulate	قنصلية	f	s	i	FS 	MP 
+208	D	آل	house	آل	m	s	i	FS 	MP 
+209	D	أَكْثَرِيَّة	majority	أكثرية	f	s	i	FS 	MP 
+210	D	رَعِيل	generation	رعيل	m	s	i	FS 	MP 
+211	D	إِنْس	humans	إِنْس	m	p	i	FS 	MP 
+212	D	جَوْق	chorus	جوقة	f	s	i	FS 	MP 
+213	D	عَامَّة	public	عامة	f	s	i	FS 	MP 
+214	D	كَاتِدْرَائِيَّة	cathedral	كاتدرائية	f	s	i	FS 	MP 
+215	D	جَحْفَل	host	جحافل	m	p	i	FS 	MP 
+216	D	مَعْشَر	group	معشر	m	s	i	FS 	MP 
+217	D	ذُرِّيَّة	offspring	ذرية	f	s	r	FS 	MP 
+218	D	صَفْوَة	elite	صفوة	f	s	i	FS 	MP 
+219	D	شِرْذِمَة	faction	شرذمة	f	s	i	FS 	MP 
+220	D	فَيْلَق	legion	فيلق	m	s	i	FS 	MP 
+221	D	مَلَأ	notables	ملأ	m	s	i	FS 	MP 
+222	D	دَرَك	gendarmerie	درك	m	s	i	FS 	MP 
+223	D	مَافِيَا	mafia	مافيا	f	s	i	FS 	MP 
+224	D	لَفِيف	assortment	لفيف	m	s	i	FS 	MP 
+225	D	أُورْط	military division	أورطة	f	s	i	FS 	MP 
+226	D	نَشْء	youth	نشء	m	s	i	FS 	MP 
+227	D	ثُلَّة	band	ثلة	f	s	i	FS 	MP 
+228	D	لُمَّة	gathering	لمة	f	s	i	FS 	MP 
+229	D	شِلَّة	clique	شلة	f	s	i	FS 	MP 
+230	D	بُوش	rabble	بوش	m	s	i	FS 	MP 
+231	D	سُوقَة	commoners	سوقة	f	s	i	FS 	MP 
+232	D	مِنْسَر	troop	منسر	m	s	i	FS 	MP 
+233	D	مَشْيَخَة	sheikhdom	مشيخة	f	s	i	FS 	MP 
+234	D	إِيَالَة	province	إيالة	f	s	i	FS 	MP 
+235	D	عُمُومَة	relatives	عمومة	f	s	i	FS 	MP 
+236	D	قَوْمِيَّ	nationality	قومية	f	s	i	FS 	MP 
+237	D	كِشافَة	scouts	كشافة	f	s	i	FS 	MP 
+238	D	الْإِفْتَاء	fatwa	افتاء	m	s	i	FS 	MP 
+239	D	رَعَاع	rabble	رعاع	m	s	i	FS 	MP 
+240	D	بُلُك	unit	بلكات	m	p	i	FS 	MP 
+241	D	أَهْل	family	أهالي	m	p	r	FS 	MP 
+242	D	أُرْطَة	battalion (Ottoman)	أورطة	f	s	i	FS	MP 
+243	G	عالِم	scholar/scientist	علماء	m	p	r	MP 	 FS
+244	G	رَجُل	man	رجال	m	p	r	MP 	 FS
+245	G	قِرْن	peer/contemporary	أقران	m	p	r	MP 	 FS
+246	G	عامِل	worker	عمال	m	p	r	MP 	 FS
+247	G	عَلَم	notable/luminary	أعلام	m	p	r	MP 	 FS
+248	G	رَئِيس	president/chief	رؤساء	m	p	r	MP 	 FS
+249	G	إِنْسَان	Human being	أناس	m	p	r	MP 	 FS
+250	G	رَسُول	messenger/apostle	رسل	m	p	r	MP 	 FS
+251	G	شَخْص	person	أشخاص	m	p	r	MP 	 FS
+252	G	شاعِر	poet	شعراء	m	p	r	MP 	 FS
+253	G	مَلِك	king	ملوك	m	p	r	MP 	 FS
+254	G	زَوْج	spouse/pair	أزواج	m	p	r	MP 	 FS
+255	G	طِفْل	child	أطفال	m	p	r	MP 	 FS
+256	G	حَكَم	referee/arbiter	حكام	m	p	r	MP 	 FS
+257	G	كاتِب	writer	كتاب	m	p	r	MP 	 FS
+258	G	أَخ	brother	اخوة	m	p	r	MP 	 FS
+259	G	صَدِيق	friend	أصدقاء	m	p	r	MP 	 FS
+260	G	سَيِّد	master/gentleman	سادة	m	p	r	MP 	 FS
+261	G	سَيِّد	master/gentleman	أسياد	m	p	r	MP 	 FS
+262	G	صاحِب	companion/owner	صحبة	m	p	r	MP 	 FS
+263	G	نَبِيّ	prophet	أنبياء	m	p	r	MP 	 FS
+264	G	أَب	father	آباء	m	p	r	MP 	 FS
+265	G	بَاحِث	Researcher	بُحّاث	m	p	r	MP 	 FS
+266	G	مُدِير	director/manager	مدراء	m	p	r	MP 	 FS
+267	G	اِبْن	son	أبناء	m	p	r	MP 	 FS
+268	G	ساكِن	resident/inhabitant	سكان	m	p	r	MP 	 FS
+269	G	نَجْم	celebrity	نجوم	m	p	r	MP 	 FS
+270	G	طَبِيب	doctor/physician	أطباء	m	p	r	MP 	 FS
+271	G	شَيْخ	elder/Sheikh	شيوخ	m	p	r	MP 	 FS
+272	G	زَعِيم	chief/leader	زعماء	m	p	r	MP 	 FS
+273	G	طَرَف	party (to a dispute)/side	أطراف	m	p	r	MP 	 FS
+274	G	طالِب	student	طلبة	m	p	r	MP 	 FS
+275	G	شابّ	young man	شبان	m	p	r	MP 	 FS
+276	G	عُضْو	member	أعضاء	m	p	r	MP 	 FS
+277	G	أَمِير	prince	أمراء	m	p	r	MP 	 FS
+278	G	مَرِيض	Patient	مرضى	m	p	r	MP 	 FS
+279	G	فَرْد	individual	أفراد	m	p	r	MP 	 FS
+280	G	غازِ	conqueror/raider	غزاة	m	p	r	MP 	 FS
+281	G	وَلَد	boy/child	أولاد	m	p	r	MP 	 FS
+282	G	فَتَى	young man/youth	فتيان	m	p	r	MP 	 FS
+283	G	قائِد	leader/commander	قادة	m	p	r	MP 	 FS
+284	G	رَبّ	lord/master	أرباب	m	p	r	MP 	 FS
+285	G	جَدّ	grandfather/ancestor	أجداد	m	p	r	MP 	 FS
+286	G	خَبِير	expert	خبراء	m	p	r	MP 	 FS
+287	G	عَرَبِيّ	Arab	عرب	m	p	r	MP 	 FS
+288	G	تِلْمِيذ	pupil	تلامذة	m	p	r	MP 	 FS
+289	G	قارِئ	reader	قُرّاء	m	p	r	MP 	 FS
+290	G	خَلِيفَة	caliph/successor	خلفاء	m	p	r	MP 	 FS
+291	G	إِمَام	Imam/Chaplain	أئمة	m	p	r	MP 	 FS
+292	G	نَظِير	counterpart/peer	نظراء	m	p	r	MP 	 FS
+293	G	جُنْدِيّ	soldier	جنود	m	p	r	MP 	 FS
+294	G	أَمِين	trustee/secretary	أمناء	m	p	r	MP 	 FS
+295	G	أُسْتَاذ	professor/teacher	أساتذة	m	p	r	MP 	 FS
+296	G	حارِس	guard	حراس	m	p	r	MP 	 FS
+297	G	ضابِط	officer	ضباط	m	p	r	MP 	 FS
+298	G	سُلْطَان	sultan	سلاطين	m	p	r	MP 	 FS
+299	G	شَبّ	youth (m.)	شباب	m	p	r	MP 	 FS
+300	G	زَمِيل	colleague	زملاء	m	p	r	MP 	 FS
+301	G	صَبِيّ	boy	صبية	m	p	r	MP 	 FS
+302	G	تاجِر	merchant	تجار	m	p	r	MP 	 FS
+303	G	بَطَل	Hero	أبطال	m	p	r	MP 	 FS
+304	G	نائِب	deputy/representative	نواب	m	p	r	MP 	 FS
+305	G	حاكِم	ruler/governor	حكام	m	p	r	MP 	 FS
+306	G	عَدُوّ	enemy	أعداء	m	p	r	MP 	 FS
+307	G	ضَيْف	guest	ضيوف	m	p	r	MP 	 FS
+308	G	جَار	neighbor	جيران	m	p	r	MP 	 FS
+309	G	عَبْد	servants/worshippers	عباد	m	p	r	MP 	 FS
+310	G	عَبْد	slave/servant	عبيد	m	p	r	MP 	 FS
+311	G	عَمِيل	agent/client	عملاء	m	p	r	MP 	 FS
+312	G	ناقِد	critic	نقاد	m	p	r	MP 	 FS
+313	G	شاهِد	witness	شهود	m	p	r	MP 	 FS
+314	G	حَبِيب	beloved	أحبة	m	p	r	MP 	 FS
+315	G	قاضِي	judge	قضاة	m	p	r	MP 	 FS
+316	G	سَفِير	ambassador	سفراء	m	p	r	MP 	 FS
+317	G	زائِر	visitor	زوار	m	p	r	MP 	 FS
+318	G	شَرِيك	partner	شركاء	m	p	r	MP 	 FS
+319	G	مُغَنٍّ	Singer	غناة	m	p	r	MP 	 FS
+320	G	رائِد	pioneer/major (rank)	رواد	m	p	r	MP 	 FS
+321	G	بَائِع	Seller/merchant	باعة	m	p	r	MP 	 FS
+322	G	وَكِيل	agent/representative	وكلاء	m	p	r	MP 	 FS
+323	G	حاجّ	pilgrim	حجاج	m	p	r	MP 	 FS
+324	G	فَقِيه	jurist (Islamic)	فقهاء	m	p	r	MP 	 FS
+325	G	حَكِيم	wise man/sage	حكماء	m	p	r	MP 	 FS
+326	G	مالِك	owner	مُلّاك	m	p	r	MP 	 FS
+327	G	راكِب	passenger/rider	رُكّاب	m	p	r	MP 	 FS
+328	G	صانِع	maker/manufacturer	صُنّاع	m	p	r	MP 	 FS
+329	G	فَارِس	horseman	فرسان	m	p	r	MP 	 FS
+330	G	حُرّ	free person	أحرار	m	p	r	MP 	 FS
+331	G	سَاحِر	magician	سحرة	f	p	r	MP 	 FS
+332	G	مَلْأَك	angel	ملائكة	m	p	r	MP 	 FS
+333	G	خَصْم	opponent	خصوم	m	p	r	MP 	 FS
+334	G	شَهِيد	martyr	شهداء	m	p	r	MP 	 FS
+335	G	شَبَح	ghost/specter	أشباح	m	p	r	MP 	 FS
+336	G	داعِي	preacher/caller	دعاة	m	p	r	MP 	 FS
+337	G	عِبَاد	Worshipper	عباد	m	p	r	MP 	 FS
+338	G	غُلام	boy; young male servant / lad	غلمان	m	p	r	MP 	 FS
+339	G	رَاوٍ	narrator	رواة	m	p	r	MP 	 FS
+340	G	راعِي	shepherd/sponsor	رعاة	m	p	r	MP 	 FS
+341	G	عَجُوز	old person; elderly man/woman; old woman	عجزة	m	p	r	MP 	 FS
+342	G	وَلِيّ	guardian/saint	أولياء	m	p	r	MP 	 FS
+343	G	والِي	governor	ولاة	m	p	r	MP 	 FS
+344	G	مُسْتَشْرِق	orientalist	مستشرقة	m	s	r	MP 	 FS
+345	G	حَفِيد	grandson/descendant	أحفاد	m	p	r	MP 	 FS
+346	G	غَرِيب	stranger	أغراب	m	p	r	MP 	 FS
+347	G	فارِسِيّ	Persian	فرس	m	p	r	MP 	 FS
+348	G	خَطِيب	orator/preacher	خطباء	m	p	r	MP 	 FS
+349	G	عاشِق	lover	عشاق	m	p	r	MP 	 FS
+350	G	صَغِير	young one/small one	صغار	m	p	r	MP 	 FS
+351	G	راهِب	monk	رهبان	m	p	r	MP 	 FS
+352	G	مَوْلُود	newborn	مواليد	m	p	r	MP 	 FS
+353	G	إِسْبَانِيّ	Spanish	إسبان	m	p	r	MP 	 FS
+354	G	تُرْكِيّ	Turk	أتراك	m	p	r	MP 	 FS
+355	G	رَحَّالَة	traveler	رحالة	m	p	r	MP 	 FS
+356	G	كاهِن	priest/clergyman	كهنة	m	p	r	MP 	 FS
+357	G	هِنْدِيّ	Indian	هنود	m	p	r	MP 	 FS
+358	G	مَغْرِبِيّ	Moroccan	مغاربة	m	p	r	MP 	 FS
+359	G	صَيْدَلَانِيّ	Pharmacist	صيادلة	f	p	r	MP 	 FS
+360	G	أَنْصَار	supporters/the Ansar	أنصار	m	p	r	MP 	 FS
+361	G	سَجِين	prisoner	سجناء	m	p	r	MP 	 FS
+362	G	حَافِظ		حفظة	f	p	r	MP 	 FS
+363	G	قاتِل	killer/murderer	قتلة	m	p	r	MP 	 FS
+364	G	زَبُون	customer	زبائن	m	p	r	MP 	 FS
+365	G	سِيَاسِيّ	politicians	ساسة	m	p	r	MP 	 FS
+366	G	أَسِير	captive/prisoner	أسرى	m	p	r	MP 	 FS
+367	G	جارِيَة	maiden/slave girl	جواري	f	p	r	FP 	 FS
+368	G	حَلِيف	ally	حلفاء	m	p	r	MP 	 FS
+369	G	قُرْصان	pirate	قراصنة	m	p	r	MP 	 FS
+370	A	كَبِير	elder/senior	كبار	m	p	r	MP 	 FS
+371	G	بَانٍ	builder	بناة	m	p	r	MP 	 FS
+372	G	ثائِر	rebel/revolutionary	ثوار	m	p	r	MP 	 FS
+373	G	جَبَّار	tyrant	جبابرة	m	p	r	MP 	 FS
+374	G	إِيطَالِيّ	italian	طليان	m	p	r	MP 	 FS
+375	G	فِرْعَوْن	pharao	فراعنة	m	p	r	MP 	 FS
+376	G	عَرُوس	bride	عرائس	m	p	r	FP 	 FS
+377	G	خَالَة	aunt	خالات	f	s	r	FP 	 FS
+378	G	سافِر	scribe (Quranic)	سفرة	m	p	r	MP 	 FS
+379	G	فَقِير	poor person	فقراء	m	p	r	MP 	 FS
+380	G	قَرِيب	relative/near one	أقرباء	m	p	r	MP 	 FS
+381	G	ضَحِيَّة	victim	ضحايا	f	p	r	MP 	 FS
+382	G	ظَالِم	oppressor	ظلمة	m	p	r	MP 	 FS
+383	G	قَيْصَر	caeser	قياصرة	m	p	r	MP 	 FS
+384	G	أَقْرَب	relative/closer one	أقارب	m	p	r	MP 	 FS
+385	G	حَامِل	pregnant	حوامل	f	p	r	FP 	 FS
+386	G	رُوسِيّ	Russian	روس	m	p	r	MP 	 FS
+387	G	طَاهٍ	cook	طهاة	m	p	r	MP 	 FS
+388	G	غَازٍ	invader	غزاة	m	p	r	MP 	 FS
+389	G	قَتِيل	slain person	قتلى	m	p	r	MP 	 FS
+390	G	أَرْمَلَة	widow	أرامل	f	p	r	MP 	 FS
+391	G	مَمْلُوك	Mamluk; slave-soldier	مماليك	m	p	r	MP 	 FS
+392	G	نَصْرَانِيّ	Christian; Nazarene	نصارى	m	p	r	MP 	 FS
+393	G	أَغَرّ	bright; noble; white-marked	غر	m	p	r	MP 	 FS
+394	G	عَذْرَاء	virgin; maiden	عذارى	f	p	r	MP 	 FS
+395	G	تُونِسِيّ	Tunisian	توانسة	m	s	r	MP 	 FS
+396	G	خَلِيق	worthy; suitable	خلائق	m	p	r	MP 	 FS
+397	G	حَامِي	protector; defender	حماة	m	p	r	MP 	 FS
+398	G	مُتَطَرِّف	extremist; radical	متطرفة	m	p	r	MP 	 FS
+399	G	وَارِث	heir; inheritor	ورثة	m	p	r	MP 	 FS
+400	G	هَاوِي	amateur; hobbyist	هواة	m	p	r	MP 	 FS
+401	G	فِينِيقِيّ	Phoenician	فينيقية	m	p	r	MP 	 FS
+402	G	رَامِي / رَامٍ	archer; thrower	رماة	m	p	r	MP 	 FS
+403	G	مُخْتَار	chosen; village headman / mukhtar	مخاتير	m	p	r	MP 	 FS
+404	G	سِمْسَار	broker; middleman	سماسرة	m	p	r	MP 	 FS
+405	G	صِرْبِيّ	Serbian; Serb	صرب	m	p	r	MP 	 FS
+406	G	جَانِي	offender; perpetrator	جناة	m	p	r	MP 	 FS
+407	G	سَاقِي / سَاقٍ	cupbearer; water-carrier	سقاة	m	p	r	MP 	 FS
+408	G	قِبْطِيّ	Copt; Coptic	أقباط	m	p	r	MP 	 FS
+409	G	بَرْبَرِيّ	Berber/Amazigh; barbarian	بربر	m	p	r	MP 	 FS
+410	G	عَاذِل	reproacher; blamer	عواذل	m	p	r	MP 	 FS
+411	G	كُرْدِيّ	Kurdish; Kurd	أكراد	m	p	r	MP 	 FS
+412	G	صَهْيُونِيّ	Zionist	صهاينة	m	p	r	MP 	 FS
+413	G	عَرّاف	fortune-teller; diviner	عرافين	m	p	r	MP 	 FS
+414	G	خَلِيل	close friend; intimate companion	خلان	m	p	r	MP 	 FS
+415	G	عَابِد	worshipper; devotee	عبدة	m	p	r	MP 	 FS
+416	G	جَرِيح	wounded person	جرحى	m	p	r	MP 	 FS
+417	G	نَزِيل	guest; resident; inmate	نزلاء	m	p	r	MP 	 FS
+418	G	دَرْوِيش	dervish; ascetic	دراويش	m	p	r	MP 	 FS
+419	G	شِيعَة	Shia	شيعة	f	p	r	MP 	 FS
+420	G	فَلّ	jasmine; context-dependent	فلول	m	p	r	MP 	 FS
+421	G	قِسِّيس	priest	قساوسة	m	p	r	MP 	 FS
+422	G	أَفْرِيقِيّ	African	أفارقة	m	p	r	MP 	 FS
+423	G	مَاشِي / مَاشٍ	walking; passerby	مشاة	m	p	r	MP 	 FS
+424	G	رُومَانِيّ	Roman; Romanian	رومان	m	p	r	MP 	 FS
+425	G	دُرْزِيّ	Druze	دروز	m	p	r	MP 	 FS
+426	G	إِمْبِرَاطُور	emperor	أباطرة	m	p	r	MP 	 FS
+427	G	مَارّ	passerby; passing	المارة	m	p	r	MP 	 FS
+428	G	قَنّاص	sniper; marksman	قناصة	m	p	r	MP 	 FS
+429	G	إِفْرَنْجِيّ	Frankish; European/foreign	إفرنج	m	p	r	MP 	 FS
+430	G	بَيْزَنْطِيّ	Byzantine	بيزنطية	m	p	r	MP 	 FS
+431	G	وَاشِي / وَاشٍ	informer; slanderer	وشاة	m	p	r	MP 	 FS
+432	G	حَاخَام	rabbi	حاخامات	m	p	r	MP 	 FS
+433	G	حُرّ	free person; noble	حرائر	f	p	r	FP	 FS
+434	G	خَائِن	traitor	خونة	m	p	r	MP 	 FS
+435	G	بَاكِي / بَاكٍ	weeping person	بواكي	m	p	r	MP 	 FS
+436	G	زَانِي / زَانٍ	adulterer; fornicator	زناة	m	p	r	MP 	 FS
+437	G	بَطَل	heroes; champions	ابطال	m	p	r	MP 	 FS
+438	G	فَرْد	individuals; persons	افراد	m	p	r	MP 	 FS
+439	G	مُعْتَزِلِيّ	Muʿtazilite	معتزلة	m	p	r	MP 	 FS
+440	G	خَارِجِيّ	Kharijites	خوارج	m	p	r	MP 	 FS
+441	G	كَنْعَانِيّ	Canaanite	كنعانية	m	p	r	MP 	 FS
+442	G	نَابِغَة	genius; prodigy	نوابغ	m	p	r	MP 	 FS
+443	G	عَارِف	knower; knowledgeable person; mystic	عارفين	m	p	r	MP 	 FS
+444	G	بَعْل	husband; lord/master; Baal	بعولة	m	p	r	MP 	 FS
+445	G	نَاصِر	supporter; helper	أنصار	m	p	r	MP 	 FS
+446	G	مُطْرَان	bishop; metropolitan	اطارنة	m	p	r	MP 	 FS
+447	G	فَاجِر	wicked person; sinner	فجار	m	p	r	MP 	 FS
+448	G	طَاغِي / طَاغٍ	tyrant; transgressor	طغاة	m	p	r	MP 	 FS
+449	G	عَيِّل	children; family; dependents	عيال	m	p	r	MP 	 FS
+450	G	صَحَابِيّ	Companion of the Prophet	صحابة	f	p	r	MP 	 FS
+451	G	رَهِينَة	hostage; pledge	رهائن	f	p	r	MP 	 FS
+452	G	بُوسْنِيّ	Bosnian	بوسنة	m	p	r	MP 	 FS
+453	G	زَلَم	men; guys	أزلام	m	p	r	MP 	 FS
+454	G	كَرْدِنَال	cardinal	كرادلة	m	p	r	MP 	 FS
+455	G	قُدّاس	Mass; liturgy	قداديس	m	p	r	MP 	 FS
+456	G	غَانِيَة	beautiful woman; courtesan	غواني	f	p	r	FP 	 FS
+457	G	حَنْبَلِيّ	Hanbali	حنابلة	m	p	r	MP 	 FS
+458	G	لِيبِيّ	Libyan	ليبيية	m	d	r	MP 	 FS
+459	G	خَوَاجَة	foreigner; master/Mr.	خواجات	m	p	r	MP 	 FS
+460	G	رَسُول	messengers; apostles	رسل	m	p	r	MP 	 FS
+461	G	مُغْتَرِب	expatriate; emigrant	مغتربة	m	p	r	MP 	 FS
+462	G	غَاوِي / غَاوٍ	misguided; hobbyist/amateur	غواة	m	p	r	MP 	 FS
+463	G	غَرِيق	drowned/drowning person	غرقى	m	p	r	MP 	 FS
+464	G	هِنْدُوسِيّ	Hindu	هندوس	m	p	r	MP 	 FS
+465	G	جَهْبَذ	expert; savant	جهابذة	m	p	r	MP 	 FS
+466	G	رُوم	Romans; Byzantines	روم	m	p	r	MP 	 FS
+467	G	عَجَمِيّ	non-Arab; foreigner; Persian	عجم	f	p	r	MP 	 FS
+468	G	أُمَوِيّ	Umayyad	أموية	m	p	r	MP 	 FS
+469	G	أَشُورِيّ	Assyrian	آشورية	m	p	r	MP 	 FS
+470	G	نَاحِي / نَاحٍ	distant/aside; context-dependent	نحاة	m	p	r	MP 	 FS
+471	G	نَدْمَان	regretful; remorseful	ندامى	m	p	r	MP 	 FS
+472	G	مُتَصَوِّف	Sufi; mystic	متصوفة	m	p	r	MP 	 FS
+473	G	قُبْرُصِيّ	Cypriot	قبارصة	m	p	r	MP 	 FS
+474	G	أَفْغَانِيّ	Afghan	أفغان	m	p	r	MP 	 FS
+475	G	بُرُوتِسْتَانْتِيّ	Protestant	بروتستانت	m	p	r	MP 	 FS
+476	G	فَرَنْجِيّ	Frankish; European/foreign	فرنجة	m	p	r	MP 	 FS
+477	G	مُرْتَدّ	apostate	مرتدة	f	p	r	MP 	 FS
+478	G	شَارِي / شَارٍ	buyer; purchaser	شراة	m	p	r	MP 	 FS
+479	G	نَسْطُورِيّ	Nestorian	نساطرة	m	p	r	MP 	 FS
+480	G	سَبِيّ	captive	سبايا	m	p	r	MP 	 FS
+481	G	سُومَرِيّ	Sumerian	سومرية	m	p	r	MP 	 FS
+482	G	نَادِم	regretful; remorseful	ندام	m	p	r	MP 	 FS
+483	G	بَحّار	sailor	بحارة	f	p	r	MP 	 FS
+484	G	أُسْقُف	bishop	أساقفة	m	p	r	MP 	 FS
+485	G	رُومِيّ	Roman; Byzantine	روم	m	p	r	MP 	 FS
+486	G	يَافِع	adolescent; young person	يفعة	m	p	r	MP 	 FS
+487	G	بَابِلِيّ	Babylonian	بابلية	m	p	r	MP 	 FS
+488	G	صَقْلَبِيّ	Slavic; Saqaliba	صقالبة	m	p	r	MP 	 FS
+489	G	حَبَشِيّ	Abyssinian; Ethiopian	أحباش	m	p	r	MP 	 FS
+490	G	أَنْبِيَاء	prophets	انبياء	m	p	r	MP 	 FS
+491	G	دَعِيّ	pretender	أدعياء	m	p	r	MP 	 FS
+492	G	حَمِيم	close friend; intimate	أحماء	m	p	r	MP 	 FS
+493	G	مَارُونِيّ	Maronite	موارنة	m	p	r	MP 	 FS
+494	G	أَوَانِس	young unmarried women; ladies	أوانس	f	p	r	FP 	 FS
+495	G	هَجّان	camel rider; camel corpsman	هجانة	m	p	r	MP 	 FS
+496	G	قَمَّاشِيَّة	cloth/textile-related; ambiguous	قماشيه	m	p	r	MP 	 FS
+497	G	إِخْوَان	brothers; brethren	إخوان	m	p	r	MP 	 FS
+498	G	قَدِيم	old; ancient	قدامى	m	p	r	MP 	 FS
+499	G	جَوْعَان	hungry	جياع	m	p	r	MP 	 FS
+500	G	قَسَاوِسِيّ	priestly; clerical	قساوسية	m	p	r	MP 	 FS
+501	G	بَئِيس	miserable; wretched	بؤساء	m	p	r	MP 	 FS
+502	G	بَطْرَك	patriarch	بطاركة	m	p	r	MP 	 FS
+503	G	سُوفْيِتِيّ	Soviet	سوفييت	m	p	r	MP 	 FS
+504	G	شِيشَانِيّ	Chechen	شيشان	m	p	r	MP 	 FS
+505	G	رُومِيّ	Roman; Byzantine	رومان	m	p	r	MP 	 FS
+506	G	قَاضٍ	judge	قضاة	m	p	r	MP 	 FS
+507	G	وَالٍ	governor; ruler	ولاة	m	p	r	MP 	 FS
+508	G	كَاهِن	priest; soothsayer	كهنة	m	p	r	MP 	 FS
+509	G	سَيِّد	masters; lords; gentlemen	سادة	m	p	r	MP 	 FS
+510	G	عَيْن	eye; notable person; spy	أعيان	f	p	r	MP 	 FS
+511	G	رَفِيق	companion; comrade	رفاق	m	p	r	MP 	 FS
+512	G	جُنْدِيّ	soldier	أَجْنَاد	m	p	r	MP 	 FS
+513	G	جُنْدِيّ	soldier	جند	m	p	r	MP 	 FS
+514	G	مَارْكِسِيّ	Marxist	ماركسية	m	p	r	MP 	 FS
+515	G	مِثْلِيّ	gay/homosexual; similar	مثلية	m	p	r	MP 	 FS
+516	G	فَاطِمِيّ	Fatimid	فاطمية	m	p	r	MP 	 FS
+517	G	إِسْكُتْلَنْدِيّ	Scottish	إسكتلندية	m	p	r	MP 	 FS
+518	G	سَلَفِيّ	Salafi	سلفية	m	p	r	MP 	 FS
+519	G	سُنِّيّ	Sunni	سنة	m	p	r	MP 	 FS
+520	G	وَبَش	rabble; riffraff	أوباش	m	p	r	MP 	 FS
+521	G	حُرَّة	free women	الحرائر	m	p	r	FP	 FS
+522	G	عَقْل	mind	عقول	m	p	r	MP	 FS
+523	G	شَيْطَان	devil/demon	الشياطين	m	p	r	MP	 FS
+524	G	خَال	maternal_uncle	أَخْوَالَ/خِيلَانَ/خُؤُولَ/خُؤُولَةَ	m	p	r	MP	 FS
+525	G	قُلْعُوط	heretic	قلاعيط	m	p	r	MP	 FS
+526	G	نَاشِئ	rising_generation;youth	نَشْء	m	p	r	MP	 FS
+527	G	أُخْت	counterpart;sister	أَخَوَات	f	p	r	FP	 FS
+528	G	إِبَاضِيّ	Ibadi	الأِبَاضِيَّة	m	p	r	MP	 FS
+529	G	إِدْرِيسِيّ	Idrisid	أَدَارِسَةَ	m	p	r	MP	 FS
+530	G	إِغْرِيقِيّ	Greek	إِغْرِيقَ/أَغَارِقَةَ	m	p	r	MP	 FS
+531	G	بَطْرِيك	Patriarch	بَطَارِكَةَ	m	p	r	MP	 FS
+532	G	حَنَفِيّ	Hanafi	أَحْنَاف	m	p	r	MP	 FS
+533	G	ذَكَر	male	ذُكُورَ/ذُكْرَانَ/ذُكُورَةَ	m	p	r	MP	 FS
+534	G	سْتَالِينِيّ	Stalinist	الستَالِينِيَّة	m	p	r	MP	 FS
+535	G	سَائِح	tourist	سُيَّاحَ	m	p	r	MP	 FS
+536	G	صَلِيبِيّ	Crusader	صُلْبَان	m	p	r	MP	 FS
+537	G	فِرْعَوْنِيّ	Pharaonic	فرَاعنة	m	p	r	MP	 FS
+538	G	مَرْأَة	woman	نساء	f	p	r	FP	 FS
+539	G	مَوْلَى	lord;master	مَوَالِيَ	m	p	r	MP	 FS
+540	G	نُوبِيّ	Nubian	نُوبَةَ	m	p	r	MP	 FS
+541	G	نِسْوَة	woman	نِسْوَةَ	m	p	r	FP	 FS
+542	G	يَتِيم	orphan;unique	أَيْتَامَ/يَتَامَى	f	p	r	MP	 FS
+543	G	أَحْمَدِيّ	Ahmadi	الأَحْمَدِيَّة	m	p	r	MP	 FS
+544	G	إِسْرَائِيلِيّ	Israeli	الإِسْرَائِيلِيَّة/بَنُو إِسْرَائِيل 	m	p	r	MP	 FS
+545	G	بُرْمِيّ	Burmese	البُرْمِيَّة	m	p	r	MP	 FS
+546	G	بُوهِيمِيّ	Bohemian	بَوَاهِمَة	m	p	r	MP	 FS
+547	G	بِقَاعِيّ	of/from_Bekaa/Biqa	البِقَاعِيَّة	m	p	r	MP	 FS
+548	G	بِلْجِيكِيّ	Belgian	البِلْجِيكِيَّة/بلاجكة	m	p	r	MP	 FS
+549	G	جَمَايْكِيّ	Jamaican	الجَمَايْكِيَّة	m	p	r	MP	 FS
+550	G	جُورْجِيّ	Georgian	الجُورْجِيَّة	m	p	r	MP	 FS
+551	G	جُوَاتِيمَالِيّ	Guatemalan	الجُوَاتِيمَالِيَّة	m	p	r	MP	 FS
+552	G	دَمَرْدَاشِيّ	Damardash;of/from_Demerdash	دَمَارِدَشَة	m	p	r	MP	 FS
+553	G	دِمَشْقِيّ	damascene;from_Damascus;of_Damascus	دَمَاشِقَةَ	m	p	r	MP	 FS
+554	G	زِيلَنْدِيّ	Zealander	الزِيلَنْدِيَّة	m	p	r	MP	 FS
+555	G	سَنُوسِيّ	Senoussi	السَّنُوسِيَّة	m	p	r	MP	 FS
+556	G	سِرِيلَانْكِيّ	Sri_Lankan	السِرِيلَانْكِيَّة	m	p	r	MP	 FS
+557	G	صَابِئِيّ	Mandean;Sabian	صَابِئَة	m	p	r	MP	 FS
+558	G	صَفَوِيّ	Safavid	الصَّفَوِيَّة	m	p	r	MP	 FS
+559	G	صُوْمَالِيّ	Somali	الصُّومَالِيَّة	m	p	r	MP	 FS
+560	G	عَبَّاسِيّ	Abbasid	عَبَّاسِيَّة/بَنُو العَبَّاس	m	p	r	MP	 FS
+561	G	عَسِيرِيّ	from_Asir;of/from_Asir_(Saudi_Arabia);of_Asir	العَسِيرِيَّة	m	p	r	MP	 FS
+562	G	قَسْطِيلِيّ	Castilian	القَسْطِيلِيَّة	m	p	r	MP	 FS
+563	G	قَشْطِيلِيّ	Castilian	قَشَاطِلَةَ	m	p	r	MP	 FS
+564	G	عانِس	spinster	عوانس	f	p	r	FP	 FS
+565	G	حَلِيلَة	lawful wife	حلائل	f	p	r	FP	 FS
+566	G	عَقِيلَة	lady/spouse	عقائل	f	p	r	FP	 FS
+567	G	قَرِينَة	wife/consort	قرائن	f	p	r	FP	 FS
+568	G	ضَرَّة	co-wife	ضرائر	f	p	r	FP	 FS
+569	G	كَنَّة	daughter-in-law	كنائن	f	p	r	FP	 FS
+570	G	سِلْفَة	sister-in-law	سلائف	f	p	r	FP	 FS
+571	G	نُفَساء	woman in childbed	نوافس	f	p	r	FP	 FS
+572	G	حُبْلَى	pregnant woman	حبالى	f	p	r	FP	 FS
+573	G	حَسْناء	belle/beauty	حسان	f	p	r	FP	 FS
+574	G	غادَة	young lady	غيد	f	p	r	FP	 FS
+575	G	هانِم	lady/madam	هوانم	f	p	r	FP	 FS
+576	G	خاتُون	noble lady	خواتين	f	p	r	FP	 FS
+577	G	وَصِيفَة	maid of honor/handmaid	وصائف	f	p	r	FP	 FS
+578	G	قابِلَة	midwife	قوابل	f	p	r	FP	 FS
+579	G	نائِحَة	wailing woman/mourner	نوائح	f	p	r	FP	 FS
+580	G	أَمَة	bondmaid	إماء	f	p	r	FP	 FS
+581	G	عاهِرَة	harlot	عواهر	f	p	r	FP	 FS
+582	G	بَغِيّ	harlot	بغايا	f	p	r	FP	 FS
+583	G	وَلِيد	newborn/young boy	وِلدان	m	p	r	MP	 FS
+584	G	بِكْر	firstborn/virgin	أبكار	f	p	r	FP	 FS
+585	G	مَنْصُورِيّ	from_Mansoura;of/from_Mansoura_(Egy.);of_Mansoura	مَنَاصِرَة	m	p	r	MP	 FS
+586	G	عَلَم	celebrities;famous people;luminaries	أعلام	m	p	r	MP	 FS
+587	G	بَرِيء	innocent;exempt	أبرياء	m	p	r	MP	 FS
+588	G	شُهُود	witnessing	شهود	m	p	r	MP	 FS
+589	G	غَالٍ	extremists;fanatics	غلاة	m	p	r	MP	 FS
+590	G	أَرْمَنِيّ	Armenian	أَرْمَنَ	m	p	r	MP	 FS
+591	G	أَشْكِينَازِيّ	Ashkenazi	أَشْكِينَازَ/أَشْكِنَازَ	m	p	r	MP	 FS
+592	G	أَكَادِيّ	Akkadian	أَكَاد/ أَكَادِيّون	m	p	r	MP	 FS
+593	G	أَلْبَانِيّ	Albanian	أَلْبَانَ	m	p	r	MP	 FS
+594	G	أَلْمَانِيّ	German	أَلْمَانَ	m	p	r	MP	 FS
+595	G	أَيُّوبِيّ	Ayubi;Ayubite	 بَنُو أَيُّوب/ أيُّوبِيّون	m	p	r	MP	 FS
+596	G	إِنْجلِيزِيّ	English	إِنْجلِيزَ	m	p	r	MP	 FS
+597	G	بَرِيطَانِيّ	British	بِرِيطَان/ برِيطَانِيّون	m	p	r	MP	 FS
+598	G	بَحْرَانِيّ	Bahraini	بَحَارِنَةَ	m	p	r	MP	 FS
+599	G	بَطْرِيَرْك	Patriarch	بَطَارِكَةَ	m	p	r	MP	 FS
+600	G	بَطْلَمِيُوسِيّ	Ptolemaic	بَطْلَمِيُوسِيّون/ بَطَالِمَة	m	p	r	MP	 FS
+601	G	بَغْدَادِيّ	Baghdadi;from_Baghdad;of_Baghdad	بَغَادِدَةَ	m	p	r	MP	 FS
+602	G	بَلُوشِيّ	Baluchi	بَلُوشِيّون/بَلُوش	m	p	r	MP	 FS
+603	G	بَلْقَانِيّ	Balkan	بَلْقَانَ	m	p	r	MP	 FS
+604	G	بُرْتُغَالِيّ	Portuguese	بُرْتُغَالِيّون/بُرْتُغَال	m	p	r	MP	 FS
+605	G	بُلْغَارِيّ	Bulgarian	بُلْغَارِيّون/بُلْغَار	m	p	r	MP	 FS
+606	G	بُنْدُقَانِيّ	Venetian	بُنْدُقَانِيّون/بَنَادِقَة	m	p	r	MP	 FS
+607	G	بُنْدُقِيّ	Venetian	بُنْدُقِيّون/بَنَادِقَة	m	p	r	MP	 FS
+608	G	تشِيكِيّ	Czech	تشِيكَ	m	p	r	MP	 FS
+609	G	تَبْرِيزِيّ	Tabrizi;of/from_Tabriz	تَبْرِيزِيّون/تَبَارِزَة	m	p	r	MP	 FS
+610	G	تَدْمُرِيّ	from_Palmyra;of_Palmyra	تَدْمُرِيّون/تَدَامِرَة	m	p	r	MP	 FS
+611	G	تَمِيمِيّ	Tamimi	تَمِيمِيّون/تَمِيم / بَنُو تَمِيم	m	p	r	MP	 FS
+612	G	جَاوِيّ	Javanese	جَاوِيّون/جَاوَة	m	p	r	MP	 FS
+613	G	جَرْكَسِيّ	Circassian	جَرَاكِسَةَ	m	p	r	MP	 FS
+614	G	جَلِيس	companion;participant;sitter	جُلَّاسَ/جُلَسَاءَ	m	p	r	MP	 FS
+615	G	حَضْرَمِيّ	Hadramautis	حَضَارِمَةَ	m	p	r	MP	 FS
+616	G	خَلِيلِيّ	Hebronite;of/from_Khalil	خَلِيلِيّون/خَلايْلَة	m	p	r	MP	 FS
+617	G	دَاعِيَة	caller;missionary;propagandist	دُعَاةَ	m	p	r	MP	 FS
+618	G	زَرَادُشْتِيّ	Zoroastrian	زَرَادُشْتِيّون/الزَّرَادُشْتِيَّة	m	p	r	MP	 FS
+619	G	زَمِيلَة	sister	زميلات	m	p	r	MP	 FS
+620	G	إِنْكلِيزِيّ	English	إِنْكلِيزَ	m	p	r	MP	 FS
+621	G	سْلَافِيّ	Slavic	سلَافِيّون/سْلَاف	m	p	r	MP	 FS
+622	G	إِنْقلِيزِيّ	English	إِنْقلِيزَ	m	p	r	MP	 FS
+623	G	سَاسَانِيّ	Sassanids	سَاسَانِيّون/ آل سَاسَان	m	p	r	MP	 FS
+624	G	سَامِرِيّ	Samaritan	سَامِرِيّون/السَّامِرَة	m	p	r	MP	 FS
+625	G	سَامِيّ	Semite;Semitic	سَامِيّون/السَّامِيَّة	m	p	r	MP	 FS
+626	G	سَبَأِيّ	Sabaean	سَبَأِيّون/سَبَأ	m	p	r	MP	 FS
+627	G	سَبَئِيّ	Sabaean	سَبَئِيّون/سَبَأ	m	p	r	MP	 FS
+628	G	سَقْلَبِيّ	Slavic	سَقَالِبَةَ	m	p	r	MP	 FS
+629	G	شَاذِلِيّ	adherent_of_the_Shadhiliya_Sufi_Order	شَاذِلِيّون/شَوَاذِلِيّة	m	p	r	MP	 FS
+630	G	شَافِعِيّ	Shafi'i;Shafi'i_(school_of_jurisprudence)	شَافِعِيّة	m	p	r	MP	 FS
+631	G	شَامِيّ	Syrian	شُوَامَ	m	p	r	MP	 FS
+632	G	شَرْكَسِيّ	Circassian	شَرْكَسَ/شَرَاكِسَةَ	m	p	r	MP	 FS
+633	G	شَقِيق	brother	أَشِقَّةَ/أَشِقَّاءَ	m	p	r	MP	 FS
+634	G	شَقِيقَة	sister	شَقَائِقَ	m	p	r	MP	 FS
+635	G	شِيلِيّ	Chilean	شِيلِيّون	m	p	r	MP	 FS
+636	G	صَحَابَة	companions_of_the_Prophet	صحابة	m	p	r	MP	 FS
+637	G	صَعِيدِيّ	Saidi;Upper_Egyptian	صَعَائِدَةَ/صَعَايِدَةَ	m	p	r	MP	 FS
+638	G	صِقِلِّيّ	Sicilian;Sicily	صِقِلِّيّون/صَقَالِبَة	m	p	r	MP	 FS
+639	G	طَالِبَانِيّ	Taleban	طَالِبَان	m	p	r	MP	 FS
+640	G	طَلْيَانِيّ	Italian	طَلْيَانَ/طَلَايِنَةَ	m	p	r	MP	 FS
+641	G	عَلَوِيّ	Alawite	عَلَوِيّون/ بَنُو عَلِيّ	m	p	r	MP	 FS
+642	G	عَلِيم	erudite;scholar;scientist;specialist	عُلَمَاءَ	m	p	r	MP	 FS
+643	G	عَمِيد	brigadier_general;chief;dean	عُمَدَاءَ	m	p	r	MP	 FS
+644	G	عُصْمَانْلِيّ	Ottoman;old_fashioned	عُصْمَانْلِيّون/عُصْمَانْلِيَّة	m	p	r	MP	 FS
+645	G	قَدَرِيّ	Qadarite;fatalist	قَدَرِيّون/قَدَرِيَّة	m	p	r	MP	 FS
+646	G	قَرُوَاطِيّ	Croatian	قَرُوَاطِيّون/كُرْوَات	m	p	r	MP	 FS
+647	G	قَرْمَطِيّ	Karmathian	قَرَامِطَةَ	m	p	r	MP	 FS
+648	G	قَشْتِيلِيّ	Castilian	قَشَاتِلَةَ	m	p	r	MP	 FS
+649	G	قُدْسِيّ	Jerusalemite	قُدْسِيّون/قَادِسَة	m	p	r	MP	 FS
+650	G	قُرَشِيّ	of_Quraish	قُرَشِيّون/قُرَيْش	m	p	r	MP	 FS
+651	G	قُرَيْشِيّ	of_Quraish	قُرَيْشِيّون/قُرَيْش	m	p	r	MP	 FS
+652	G	كَلْدَانِيّ	Chaldean;astrologer	كَلْدَانِيّون/كَلْدَان	m	p	r	MP	 FS
+653	G	كُرْجِيّ	Georgian	كُرْجِيّون/كُرْج	m	p	r	MP	 FS
+654	G	مَالِكِيّ	Malikite	مَالِكِيّون/مَالِكِيَّة	m	p	r	MP	 FS
+655	G	مَانَوِيّ	Manichaean;Manichaeism	مَانَوِيّون/مَانَوِيَّة	m	p	r	MP	 FS
+656	G	مَجَرِيّ	Hungarian	مَجَرِيّون/مَجَر	m	p	r	MP	 FS
+657	G	مَجُوسِيّ	Magian;Magus	مَجُوسِيّون/مَجُوس	m	p	r	MP	 FS
+658	G	مَرِينِيّ	Merinids	مَرِينِيّون/ بَنُو مَرِين	m	p	r	MP	 FS
+659	G	فَيْلَسُوف	philosopher	فلاسفة	m	p	r	MP	 FS
+660	G	دُكْتُور	doctor	دكاترة	m	p	r	MP	 FS
+661	G	بَيْطار	veterinarian	بياطرة	m	p	r	MP	 FS
+662	G	صائِغ	jeweler/goldsmith	صاغة	m	p	r	MP	 FS
+663	G	حائِك	weaver	حاكة	m	p	r	MP	 FS
+664	G	حارِث	plowman/tiller	حرّاث	m	p	r	MP	 FS
+665	G	زارِع	farmer/planter	زرّاع	m	p	r	MP	 FS
+666	G	سائِس	groom/horse tender	سوّاس	m	p	r	MP	 FS
+667	G	سائِق	driver	سوّاق	m	p	r	MP	 FS
+668	G	حادِي	cameleer/camel driver	حداة	m	p	r	MP	 FS
+669	G	ساعِي	courier/messenger	سعاة	m	p	r	MP	 FS
+670	G	جابِي	tax collector	جباة	m	p	r	MP	 FS
+671	G	نادِل	waiter	ندُل	m	p	r	MP	 FS
+672	G	خادِم	servant	خدَم	m	p	r	MP	 FS
+673	G	قَهْرَمان	steward/major-domo	قهارمة	m	p	r	MP	 FS
+674	G	ناطُور	watchman/warden	نواطير	m	p	r	MP	 FS
+675	G	دَيْدَبان	sentry/lookout	ديادبة	m	p	r	MP	 FS
+676	G	خَفِير	watchman/guard	خفراء	m	p	r	MP	 FS
+677	G	غَفِير	guard/sentinel	غفراء	m	p	r	MP	 FS
+678	G	خازِن	treasurer/keeper	خزّان	m	p	r	MP	 FS
+679	G	حاجِب	chamberlain/gatekeeper	حجّاب	m	p	r	MP	 FS
+680	G	ناظِر	supervisor/overseer	نظّار	m	p	r	MP	 FS
+681	G	قاصّ	storyteller/narrator	قصّاص	m	p	r	MP	 FS
+682	G	ناسِخ	copyist/scribe	نسّاخ	m	p	r	MP	 FS
+683	G	سابِح	swimmer	سبّاح	m	p	r	MP	 FS
+684	G	نابِل	archer	نبّال	m	p	r	MP	 FS
+685	G	جاسُوس	spy	جواسيس	m	p	r	MP	 FS
+686	G	نِحْرِير	adept/expert	نحارير	m	p	r	MP	 FS
+687	G	عَقِيد	colonel	عقداء	m	p	r	MP	 FS
+688	G	عَرِيف	corporal/sergeant	عرفاء	m	p	r	MP	 FS
+689	G	رَقِيب	sergeant/observer	رقباء	m	p	r	MP	 FS
+690	G	نَقِيب	captain/syndicate head	نقباء	m	p	r	MP	 FS
+691	G	قُبْطان	captain/skipper	قباطنة	m	p	r	MP	 FS
+692	G	رُبَّان	ship captain	ربابنة	m	p	r	MP	 FS
+693	G	باسِل	valiant one	بواسل	m	p	r	MP	 FS
+694	G	مُغَنِّيَة	songstress	مغانٍ	f	p	r	FP	FS
+695	G	قاصِرَة	underage girl	قواصر	f	p	r	FP	FS
+696	G	يَتِيمَة	orphan girl	يتائم	f	p	r	FP	FS
+697	G	كاهِنَة	priestess/soothsayer	كواهن	f	p	r	FP	FS
+698	G	كاتِبَة	woman writer	كواتب	f	p	r	FP	FS
+699	G	راقِصَة	dancer (female)	رواقص	f	p	r	FP	FS
+700	G	كَمِيّ	warrior	كماة	m	p	r	MP	 FS
+701	G	صِنْدِيد	valiant chief	صناديد	m	p	r	MP	 FS
+702	G	غِطْرِيف	noble chief/potentate	غطارفة	m	p	r	MP	 FS
+703	G	مَلِيك	sovereign	ملكاء	m	p	r	MP	 FS
+704	G	عاهِل	monarch	عواهل	m	p	r	MP	 FS
+705	G	عُمْدَة	village chief/mayor	عُمَد	m	p	r	MP	 FS
+706	G	نَبِيل	nobleman	نبلاء	m	p	r	MP	 FS
+707	G	شَرِيف	noble/sharif	أشراف	m	p	r	MP	 FS
+708	G	سَرِيّ	chieftain/noble	سراة	m	p	r	MP	 FS
+709	G	حَبْر	learned scholar	أحبار	m	p	r	MP	 FS
+710	G	أَرْخُن	notable	أراخنة	m	p	r	MP	 FS
+711	G	مَشْهُور	celebrity	مشاهير	m	p	r	MP	 FS
+712	G	شَمَّاس	deacon	شمامسة	m	p	r	MP	 FS
+713	G	قُمُّص	archpriest	قمامصة	m	p	r	MP	 FS
+714	G	واعِظ	preacher	وعّاظ	m	p	r	MP	 FS
+715	G	ناسِك	ascetic/hermit	نسّاك	m	p	r	MP	 FS
+716	G	زاهِد	ascetic	زهّاد	m	p	r	MP	 FS
+717	G	حَنِيف	true believer	حنفاء	m	p	r	MP	 FS
+718	G	صائِم	faster/one fasting	صوّام	m	p	r	MP	 FS
+719	G	كافِر	unbeliever	كفّار	m	p	r	MP	 FS
+720	G	فاسِق	profligate/sinner	فسّاق	m	p	r	MP	 FS
+721	G	مُلْحِد	atheist/heretic	ملاحدة	m	p	r	MP	 FS
+722	G	زِنْدِيق	heretic/freethinker	زنادقة	m	p	r	MP	 FS
+723	G	عاصِي	sinner/rebel	عصاة	m	p	r	MP	 FS
+724	G	عَدْل	notary/just witness	عدول	m	p	r	MP	 FS
+725	G	كَفِيل	guarantor/sponsor	كفلاء	m	p	r	MP	 FS
+726	G	ضامِن	guarantor	ضمناء	m	p	r	MP	 FS
+727	G	وَسِيط	mediator/go-between	وسطاء	m	p	r	MP	 FS
+728	G	غَرِيم	creditor/debtor	غرماء	m	p	r	MP	 FS
+729	G	حَرِيف	customer/client	حرفاء	m	p	r	MP	 FS
+730	G	وَرِيث	heir	ورثاء	m	p	r	MP	 FS
+731	G	وَصِيّ	executor/guardian	أوصياء	m	p	r	MP	 FS
+732	G	قاصِر	minor/underage person	قصّر	m	p	r	MP	 FS
+733	G	أَجِير	hired hand/laborer	أجراء	m	p	r	MP	 FS
+734	G	بَدِيل	substitute/stand-in	بدلاء	m	p	r	MP	 FS
+735	G	عَمّ	paternal uncle	أعمام	m	p	r	MP	 FS
+736	G	خَتَن	son-in-law	أختان	m	p	r	MP	 FS
+737	G	صِهْر	son-in-law/brother-in-law	أصهار	m	p	r	MP	 FS
+738	G	نَسِيب	kinsman/in-law	أنسباء	m	p	r	MP	 FS
+739	G	سَلِيل	descendant/scion	سلائل	m	p	r	MP	 FS
+740	G	خَلَف	successor/descendant	أخلاف	m	p	r	MP	 FS
+741	G	سَلَف	ancestor/predecessor	أسلاف	m	p	r	MP	 FS
+742	G	سِبْط	grandson/tribe descendant	أسباط	m	p	r	MP	 FS
+743	G	تَوْأَم	twin	توائم	m	p	r	MP	 FS
+744	G	صِنْو	twin/full brother	صنوان	m	p	r	MP	 FS
+745	G	تِرْب	peer/age-mate	أتراب	m	p	r	MP	 FS
+746	G	خِدْن	intimate friend/confidant	أخدان	m	p	r	MP	 FS
+747	G	نِدّ	peer/equal	أنداد	m	p	r	MP	 FS
+748	G	نَدِيم	boon companion	ندماء	m	p	r	MP	 FS
+749	G	سامِر	evening companion/entertainer	سمّار	m	p	r	MP	 FS
+750	G	عَشِير	close companion	عشراء	m	p	r	MP	 FS
+751	G	ساحِرَة	sorceress	سواحر	f	p	r	FP	FS
+752	G	راهِبَة	nun	رواهب	f	p	r	FP	FS
+753	G	ماشِطَة	bridal hairdresser	مواشط	f	p	r	FP	FS
+754	G	نادِبَة	hired mourner	نوادب	f	p	r	FP	FS
+755	G	ظِئْر	wet nurse	أظآر	f	p	r	FP	FS
+756	G	قَرِين	peer/associate	قرناء	m	p	r	MP	 FS
+757	G	قَعِيد	companion/guardian	قعداء	m	p	r	MP	 FS
+758	G	ظَهِير	backer/supporter	ظهراء	m	p	r	MP	 FS
+759	G	نَصِير	supporter/ally	نصراء	m	p	r	MP	 FS
+760	G	عَوْن	helper/aide	أعوان	m	p	r	MP	 FS
+761	G	تابِع	follower/adherent	أتباع	m	p	r	MP	 FS
+762	G	خَصِيم	adversary/opponent	خصماء	m	p	r	MP	 FS
+763	G	عائِد	visitor (of the sick)	عوّاد	m	p	r	MP	 FS
+764	G	لَئِيم	ignoble/base one	لئام	m	p	r	MP	 FS
+765	G	حَلِيم	forbearing one	حلماء	m	p	r	MP	 FS
+766	G	حَصِيف	judicious one	حصفاء	m	p	r	MP	 FS
+767	G	عَظِيم	great one/magnate	عظماء	m	p	r	MP	 FS
+768	G	ذَلِيل	abased/lowly one	أذلاء	m	p	r	MP	 FS
+769	G	جاهِل	ignorant person	جهّال	m	p	r	MP	 FS
+770	G	أَحْمَق	fool	حمقى	m	p	r	MP	 FS
+771	G	أَبْلَه	simpleton	بُلْه	m	p	r	MP	 FS
+772	G	سَفِيه	fool/impudent one	سفهاء	m	p	r	MP	 FS
+773	G	لَبِيب	intelligent one	ألبّاء	m	p	r	MP	 FS
+774	G	نَبِيه	alert/eminent one	نبهاء	m	p	r	MP	 FS
+775	G	بَلِيد	dullard	بلداء	m	p	r	MP	 FS
+776	G	كَسُول	lazy person	كسالى	m	p	r	MP	 FS
+777	G	نَشِيط	active person/activist	نشطاء	m	p	r	MP	 FS
+778	G	داهِيَة	shrewd one/mastermind	دهاة	m	p	r	MP	 FS
+779	G	كَهْل	middle-aged man	كهول	m	p	r	MP	 FS
+780	G	عَزَب	bachelor	عزّاب	m	p	r	MP	 FS
+781	G	عَرِيس	bridegroom	عرسان	m	p	r	MP	 FS
+782	G	طَلِيق	freed one/released one	طلقاء	m	p	r	MP	 FS
+783	G	عَتِيق	freedman	عتقاء	m	p	r	MP	 FS
+784	G	رَقِيق	slave	أرقاء	m	p	r	MP	 FS
+785	G	آبِق	runaway slave	أبّاق	m	p	r	MP	 FS
+786	G	لَقِيط	foundling	لقطاء	m	p	r	MP	 FS
+787	G	طَرِيد	outcast/fugitive	طرداء	m	p	r	MP	 FS
+788	G	دَخِيل	outsider/intruder	دخلاء	m	p	r	MP	 FS
+789	G	رَضِيع	suckling infant	رضّع	m	p	r	MP	 FS
+790	G	سَقِيم	sick person	سقماء	m	p	r	MP	 FS
+791	G	صَرِيع	slain/felled one	صرعى	m	p	r	MP	 FS
+792	G	هالِك	perished one	هلكى	m	p	r	MP	 FS
+793	G	رَبِيبَة	stepdaughter	ربائب	f	p	r	FP	FS
+794	G	طالِق	divorced woman	طوالق	f	p	r	FP	FS
+795	G	ناشِز	recalcitrant wife	نواشز	f	p	r	FP	FS
+796	G	حَظِيَّة	favorite/concubine	حظايا	f	p	r	FP	FS
+797	G	وَلِيدَة	slave girl/maidservant	ولائد	f	p	r	FP	FS
+798	G	زانِيَة	adulteress	زوانٍ	f	p	r	FP	FS
+799	G	مِسْكِين	pauper/wretch	مساكين	m	p	r	MP	 FS
+800	G	صُعْلُوك	vagabond/pauper	صعاليك	m	p	r	MP	 FS
+801	G	سَكْران	drunkard	سكارى	m	p	r	MP	 FS
+802	G	حَيْران	perplexed one	حيارى	m	p	r	MP	 FS
+803	G	أَعْمَى	blind person	عميان	m	p	r	MP	 FS
+804	G	أَصَمّ	deaf person	صُمّ	m	p	r	MP	 FS
+805	G	أَبْكَم	mute person	بُكْم	m	p	r	MP	 FS
+806	G	أَعْرَج	lame person	عُرْج	m	p	r	MP	 FS
+807	G	لِصّ	thief	لصوص	m	p	r	MP	 FS
+808	G	سارِق	thief	سرّاق	m	p	r	MP	 FS
+809	G	غاصِب	usurper/plunderer	غصّاب	m	p	r	MP	 FS
+810	G	فاتِك	deadly assailant	فتّاك	m	p	r	MP	 FS
+811	G	باغِي	oppressor/aggressor	بغاة	m	p	r	MP	 FS
+812	G	عاتِي	tyrant/insolent one	عتاة	m	p	r	MP	 FS
+813	G	مارِق	apostate/renegade	مرّاق	m	p	r	MP	 FS
+814	G	مارِد	rebel/demon	مردة	m	p	r	MP	 FS
+815	G	عِفْرِيت	imp/demon	عفاريت	m	p	r	MP	 FS
+816	G	عِمْلاق	giant	عمالقة	m	p	r	MP	 FS
+817	G	قَزَم	dwarf	أقزام	m	p	r	MP	 FS
+818	G	ناصِح	sincere advisor	نصّاح	m	p	r	MP	 FS
+819	G	حاوِي	snake charmer/juggler	حواة	m	p	r	MP	 FS
+820	G	دَلِيل	guide (person)	أدلاء	m	p	r	MP	 FS
+821	G	إِشْبِين	godfather/best man	أشابين	m	p	r	MP	 FS
+822	G	أَيِّم	widowed/unmarried woman	أيامى	f	p	r	FP	 FS
+823	G	صَبِيَّة	young girl	صبايا	f	p	r	FP	 FS
+824	G	حَدَث	juvenile/youth	أحداث	m	p	r	MP	 FS
+825	G	حافِي	barefoot person	حفاة	m	p	r	MP	 FS
+826	G	عارِي	naked person	عراة	m	p	r	MP	 FS
+827	G	رَحَّال	inveterate traveler/nomad	رُحَّل	m	p	r	MP	 FS
+828	G	راكِع	bowing worshipper	رُكَّع	m	p	r	MP	 FS
+829	G	ساجِد	prostrate worshipper	سُجَّد	m	p	r	MP	 FS
+830	G	مِغْوار	daring raider/warrior	مغاوير	m	p	r	MP	 FS
+831	G	قِنّ	serf/bond slave	أقنان	m	p	r	MP	 FS
+832	G	وَغْد	scoundrel	أوغاد	m	p	r	MP	 FS
+833	G	نَذْل	vile person	أنذال	m	p	r	MP	 FS
+834	G	سافِل	lowlife	سَفَلة	m	p	r	MP	 FS
+835	G	ساذَج	naive person	سُذَّج	m	p	r	MP	 FS
+836	G	بارّ	dutiful/pious one	بَرَرة	m	p	r	MP	 FS
+837	G	عاهِر	adulterer/lecher	عُهّار	m	p	r	MP	 FS
+838	G	خاطِب	suitor	خُطّاب	m	p	r	MP	 FS
+839	G	شاكِي	complainant	شُكاة	m	p	r	MP	 FS
+840	G	حاسِد	envier	حُسّاد	m	p	r	MP	 FS
+841	G	شامِت	gloater	شُمّات	m	p	r	MP	 FS
+842	G	مُرْضِع	wet nurse	مراضع	f	p	r	FP	 FS
+843	G	حاضِنَة	nursemaid/foster mother	حواضن	f	p	r	FP	 FS
+844	G	كاعِب	buxom maiden	كواعب	f	p	r	FP	 FS
+845	G	عاقِر	barren woman	عواقر	f	p	r	FP	 FS
+846	G	قَيْنَة	singing girl	قِيان	f	p	r	FP	 FS
+847	G	سُرِّيَّة	concubine	سراري	f	p	r	FP	 FS
+848	G	كَرِيمَة	daughter/noblewoman	كرائم	f	p	r	FP	 FS
+849	G	نَزِيع	stranger/outsider	نُزّاع	m	p	r	MP	 FS
+850	G	عاتِق	young woman (at puberty)	عواتق	f	p	r	FP	FS
+851	G	رَضِيعَة	female infant	رضائع	f	p	r	FP	FS
+852	G	خَرِيدَة	bashful maiden	خرائد	f	p	r	FP	FS
+853	G	حائِض	menstruating woman	حُيَّض	f	p	r	FP	FS
+854	G	ثاكِل	bereaved mother	ثواكل	f	p	r	FP	FS
+855	G	حُرْمَة	woman/wife	حريم	f	p	r	FP	FS
+856	A	وَزِير	minister	وزراء	m	p	r	MP	—
+857	A	كِتَاب	book	كتاب	m	s	i	MS	—
+858	A	كِتَاب	book	كتب	m	p	i	FS	—
+859	A	قَلَم	pen	قلم	m	s	i	MS	—
+860	A	قَلَم	pen	أقلام	m	p	i	FS	—
+861	A	بَيْت	house	بيت	m	s	i	MS	—
+862	A	بَيْت	house	بيوت	m	p	i	FS	—
+863	A	بَاب	door	باب	m	s	i	MS	—
+864	A	بَاب	door	أبواب	m	p	i	FS	—
+865	A	مَدِينَة	city	مدينة	m	s	i	MS	—
+866	A	مَدِينَة	city	مدن	m	p	i	FS	—
+867	A	مَيِّت	dead person	الموتى	m	p	r	MP	—
+868	A	سَيَّارَة	car	سيارة	m	s	i	MS	—
+869	A	سَيَّارَة	car	سيارات	m	p	i	FS	—
+870	A	كُرْسِيّ	chair	كرسي	m	s	i	MS	—
+871	A	كُرْسِيّ	chair	كراسي	m	p	i	FS	—
+872	A	طَاوِلَة	table	طاولة	m	s	i	MS	—
+873	A	طَاوِلَة	table	طاولات	m	p	i	FS	—
+874	A	نَهْر	river	نهر	m	s	i	MS	—
+875	A	نَهْر	river	أنهار	m	p	i	FS	—
+876	A	جَبَل	mountain	جبل	m	s	i	MS	—
+877	A	جَبَل	mountain	جبال	m	p	i	FS	—
+878	A	كَلْب	dog	كلب	m	s	i	MS	—
+879	A	كَلْب	dog	كلاب	m	p	i	FS	—
+880	A	قِطَّة	cat	قطة	m	s	i	MS	—
+881	A	قِطَّة	cat	قطط	m	p	i	FS	—
+882	A	حِصَان	horse	حصان	m	s	i	MS	—
+883	A	حِصَان	horse	أحصنة	m	p	i	FS	—
+884	A	نَفْس	soul/self	نفوس	f	p	i	FS	—
+885	A	قُرْبَان	offering; sacrifice	القرابين	m	p	i	FS	—
+886	A	عَقْل	mind	عقول	m	p	i	FS	—
+887	A	شَيْطَان	devil/demon	الشياطين	m	p	i	FS	—
+888	A	جُثَّة	corpse	جثث	f	p	i	FS	—
+889	A	شَارِع	street	شارع	m	s	i	MS	—
+890	A	شَارِع	street	شوارع	m	p	i	FS	—
+891	A	قَمِيص	shirt	قميص	m	s	i	MS	—
+892	A	قَمِيص	shirt	قمصان	m	p	i	FS	—
+893	A	نَافِذَة	window	نافذة	m	s	i	MS	—
+894	A	نَافِذَة	window	نوافذ	m	p	i	FS	—
+895	A	حَاسُوب	computer	حاسوب	m	s	i	MS	—
+896	A	حَاسُوب	computer	حواسيب	m	p	i	FS	—
+897	A	هَاتِف	phone	هاتف	m	s	i	MS	—
+898	A	هَاتِف	phone	هواتف	m	p	i	FS	—
+899	A	سَاعَة	watch	ساعة	m	s	i	MS	—
+900	A	سَاعَة	watch	ساعات	m	p	i	FS	—
+901	A	حَقِيبَة	bag	حقيبة	m	s	i	MS	—
+902	A	حَقِيبَة	bag	حقائب	m	p	i	FS	—
+903	A	عُصْفُور	sparrow	عصفور	m	s	i	MS	—
+904	A	عُصْفُور	sparrow	عصافير	m	p	i	FS	—
+905	A	مِفْتَاح	key	مفتاح	m	s	i	MS	—
+906	A	مِفْتَاح	key	مفاتيح	m	p	i	FS	—
+907	A	جِسْر	bridge	جسر	m	s	i	MS	—
+908	A	جِسْر	bridge	جسور	m	p	i	FS	—
+909	A	مُوَظَّف	employee	موظف	m	s	r	MS	—
+910	A	مُوَظَّف	employee	موظفون	m	p	r	MP	—
+911	A	مُهَنْدِس	engineer	مهندس	m	s	r	MS	—
+912	A	مُهَنْدِس	engineer	مهندسون	m	p	r	MP	—
+913	C	شَجَر	trees	شجر	m	s	i	MS	—
+914	C	شَجَر	trees	شجرة	f	s	i	FS	—
+915	C	نَخْل	palm trees	نخل	m	s	i	MS	—
+916	C	نَخْل	palm trees	نخلة	f	s	i	FS	—
+917	C	طَيْر	birds	طير	m	s	i	MS	—
+918	C	طَيْر	birds	طائر	f	s	i	MS	—
+919	C	بَقَر	cattle	بقر	m	s	i	MS	—
+920	C	بَقَر	cattle	بقرة	f	s	i	FS	—
+921	C	غَنَم	sheep	غنم	m	s	i	MS	—
+922	C	غَنَم	sheep	شاة	f	s	i	FS	—
+923	C	نَمْل	ants	نمل	m	s	i	MS	—
+924	C	نَمْل	ants	نملة	f	s	i	FS	—
+925	C	نَحْل	bees	نحل	m	s	i	MS	—
+926	C	نَحْل	bees	نحلة	f	s	i	FS	—
+927	C	وَرَق	leaves/paper	ورق	m	s	i	MS	—
+928	C	وَرَق	leaves/paper	ورقة	f	s	i	FS	—
+929	C	زَهْر	flowers	زهر	m	s	i	MS	—
+930	C	زَهْر	flowers	زهرة	f	s	i	FS	—
+931	C	تَمْر	dates	تمر	m	s	i	MS	—
+932	C	تَمْر	dates	تمرة	f	s	i	FS	—
+933	C	عِنَب	grapes	عنب	m	s	i	MS	—
+934	C	عِنَب	grapes	عنبة	f	s	i	FS	—
+935	C	سَمَك	fish	سمك	m	s	i	MS	—
+936	C	سَمَك	fish	سمكة	f	s	i	FS	—
+937	C	دَجَاج	chickens	دجاج	m	s	i	MS	—
+938	C	دَجَاج	chickens	دجاجة	f	s	i	FS	—
+939	C	بَصَل	onions	بصل	m	s	i	MS	—
+940	C	بَصَل	onions	بصلة	f	s	i	FS	—
+941	C	تُفَّاح	apples	تفاح	m	s	i	MS	—
+942	C	تُفَّاح	apples	تفاحة	f	s	i	FS	—
+943	C	قَمْح	wheat	قمح	m	s	i	MS	—
+944	C	قَمْح	wheat	قمحة	f	s	i	FS	—
+945	C	شَعْر	hair	شعر	m	s	i	MS	—
+946	C	شَعْر	hair	شعرة	f	s	i	FS	—
+947	C	حَصًى	pebbles	حصى	m	s	i	MS	—
+948	C	حَصًى	pebbles	حصاة	f	s	i	FS	—
+949	C	ثَمَر	fruit	ثمر	m	s	i	MS	—
+950	C	ثَمَر	fruit	ثمرة	f	s	i	FS	—
+951	C	حَمَام	pigeons	حمام	m	s	i	MS	—
+952	C	حَمَام	pigeons	حمامة	f	s	i	FS	—

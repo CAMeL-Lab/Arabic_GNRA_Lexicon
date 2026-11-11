@@ -104,7 +104,7 @@ def strip_dia(s: str) -> str:
     return s.translate(_ALEF_TRANS)
 
 # ------------------------------------------------------------
-# Curated exclusion lexicons — loaded from extraction/stoplists/.
+# Curated exclusion lexicons — loaded from scripts/extraction/stoplists/.
 # These are open-class, corpus-curated RESOURCES, not grammar constants:
 # no grammatical feature separates a manner adverb (رسمياً 'officially')
 # from a true circumstantial haal, so a lexical list is the only possible
@@ -207,7 +207,7 @@ OUTPUT_COLUMNS_PAIR = (
 )
 
 # 15 placeholder columns for downstream rule validation (filled by
-# validation/validate_pairs.py, NOT by extraction).
+# scripts/validation/validate_pairs.py, NOT by extraction).
 PRED_COLUMNS = [
     "pred_gen_form", "pred_num_form", "match_form",
     "pred_gen_func", "pred_num_func", "match_func",

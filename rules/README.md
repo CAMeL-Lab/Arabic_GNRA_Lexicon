@@ -1,8 +1,15 @@
 # Rule inventory
 
-`rule_inventory.tsv` is the machine-readable agreement rule inventory — the
-single source of truth for the rules applied by `validation/validate_pairs.py`.
-One row per rule.
+[`rule_inventory.tsv`](rule_inventory.tsv) is the machine-readable agreement
+rule inventory used by [`scripts/validation/validate_pairs.py`](../scripts/validation/validate_pairs.py).
+It has one row per rule and covers five configurations for each evaluated
+construction. [`dual_gender_nouns.tsv`](dual_gender_nouns.tsv) is a separate
+list of common-gender nouns used by the Extended configuration. The validator
+loads both files by default.
+
+The [AGG lexicon](../lexicon/README.md) is a separate resource: its noun labels
+are matched against `agg_value` conditions in this inventory when
+`--agg-lexicon` is supplied to the validator.
 
 ## Columns
 
