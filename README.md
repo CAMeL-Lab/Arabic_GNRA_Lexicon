@@ -78,11 +78,10 @@ and its upstream analyses are not distributed in this repository.
 
 ## License
 
-Code is released under the MIT License (see [LICENSE](LICENSE)). BAREC and the
-upstream CAMeL morphological and parsing resources remain under their own
-licenses; this repository does not grant rights to the underlying corpus text.
+All code in this repository is released under the MIT License (see [LICENSE](LICENSE) for more information). The lexicon is under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Contact
 
 Bailasan Zaina (btz3@georgetown.edu)
+
 Nizar Habash (nizar.habash@nyu.edu)
