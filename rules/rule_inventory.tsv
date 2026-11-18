@@ -1,0 +1,409 @@
+construction	rule_set	rule_name	form_gen	form_num	form_rat	func_gen	func_num	func_rat	agg_value	num_range	output	member_access	formula
+sv	Form Match	R_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrV(N)=(M,S)
+sv	Form Match	R_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrV(N)=(M,D)
+sv	Form Match	R_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrV(N)=(M,P)
+sv	Form Match	R_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrV(N)=(F,S)
+sv	Form Match	R_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrV(N)=(F,D)
+sv	Form Match	R_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrV(N)=(F,P)
+sv	Form Rules	R_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrV(N)=(M,S)
+sv	Form Rules	R_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrV(N)=(M,D)
+sv	Form Rules	R_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrV(N)=(M,P)
+sv	Form Rules	R_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrV(N)=(F,S)
+sv	Form Rules	R_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrV(N)=(F,S)
+sv	Form Rules	R_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrV(N)=(F,D)
+sv	Form Rules	R_FORM_FP_R	F	P	*	*	*	R	*		FP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrV(N)=(F,P)
+sv	Form Rules	R_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrV(N)=(F,S)
+sv	Func Match	R_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrV(N)=(M,S)
+sv	Func Match	R_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrV(N)=(M,D)
+sv	Func Match	R_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrV(N)=(M,P)
+sv	Func Match	R_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrV(N)=(F,S)
+sv	Func Match	R_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrV(N)=(F,D)
+sv	Func Match	R_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrV(N)=(F,P)
+sv	Func Rules	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrV(N)=(M,S)
+sv	Func Rules	R_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrV(N)=(M,D)
+sv	Func Rules	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrV(N)=(M,P)
+sv	Func Rules	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrV(N)=(F,S)
+sv	Func Rules	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrV(N)=(F,S)
+sv	Func Rules	R_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrV(N)=(F,D)
+sv	Func Rules	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrV(N)=(F,P)
+sv	Func Rules	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrV(N)=(F,S)
+sv	Extended	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrV(N)=(M,S)
+sv	Extended	R_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrV(N)=(M,D)
+sv	Extended	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrV(N)=(M,P)
+sv	Extended	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrV(N)=(F,S)
+sv	Extended	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrV(N)=(F,S)
+sv	Extended	R_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrV(N)=(F,D)
+sv	Extended	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrV(N)=(F,P)
+sv	Extended	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrV(N)=(F,S)
+sv	Extended	R_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrV(N)=(F,S)
+sv	Extended	R_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrV(N)=(M,P)
+vs	Form Match	R_VS_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrV(N)=(M,S)
+vs	Form Match	R_VS_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrV(N)=(M,D)
+vs	Form Match	R_VS_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrV(N)=(M,P)
+vs	Form Match	R_VS_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrV(N)=(F,S)
+vs	Form Match	R_VS_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrV(N)=(F,D)
+vs	Form Match	R_VS_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrV(N)=(F,P)
+vs	Form Rules	R_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrV(N)=(M,S)
+vs	Form Rules	R_FORM_MD	M	D	*	*	*	*	*		MS	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrV(N)=(M,S)
+vs	Form Rules	R_FORM_MP_R	M	P	*	*	*	R	*		MS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrV(N)=(M,S)
+vs	Form Rules	R_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrV(N)=(F,S)
+vs	Form Rules	R_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrV(N)=(F,S)
+vs	Form Rules	R_FORM_FD	F	D	*	*	*	*	*		FS	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrV(N)=(F,S)
+vs	Form Rules	R_FORM_FP_R	F	P	*	*	*	R	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrV(N)=(F,S)
+vs	Form Rules	R_VS_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrV(N)=(F,S)
+vs	Func Match	R_VS_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrV(N)=(M,S)
+vs	Func Match	R_VS_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrV(N)=(M,D)
+vs	Func Match	R_VS_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrV(N)=(M,P)
+vs	Func Match	R_VS_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrV(N)=(F,S)
+vs	Func Match	R_VS_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrV(N)=(F,D)
+vs	Func Match	R_VS_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrV(N)=(F,P)
+vs	Func Rules	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrV(N)=(M,S)
+vs	Func Rules	R_FUNCTION_MD	*	*	*	M	D	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrV(N)=(M,S)
+vs	Func Rules	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrV(N)=(M,S)
+vs	Func Rules	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrV(N)=(F,S)
+vs	Func Rules	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrV(N)=(F,S)
+vs	Func Rules	R_FUNCTION_FD	*	*	*	F	D	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrV(N)=(F,S)
+vs	Func Rules	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrV(N)=(F,S)
+vs	Func Rules	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrV(N)=(F,S)
+vs	Extended	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrV(N)=(M,S)
+vs	Extended	R_FUNCTION_MD	*	*	*	M	D	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrV(N)=(M,S)
+vs	Extended	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrV(N)=(M,S)
+vs	Extended	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrV(N)=(F,S)
+vs	Extended	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrV(N)=(F,S)
+vs	Extended	R_FUNCTION_FD	*	*	*	F	D	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrV(N)=(F,S)
+vs	Extended	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrV(N)=(F,S)
+vs	Extended	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrV(N)=(F,S)
+vs	Extended	R_VS_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrV(N)=(F,S)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrAdj(N)=(M,S)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrAdj(N)=(M,D)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrAdj(N)=(M,P)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrAdj(N)=(F,S)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrAdj(N)=(F,D)
+noun_adj	Form Match	R_ADJ_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrAdj(N)=(F,P)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrAdj(N)=(M,S)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrAdj(N)=(M,D)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrAdj(N)=(M,P)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrAdj(N)=(F,S)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrAdj(N)=(F,D)
+noun_adj	Func Match	R_ADJ_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrAdj(N)=(F,P)
+noun_adj	Func Rules	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrAdj(N)=(M,S)
+noun_adj	Func Rules	R_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrAdj(N)=(M,D)
+noun_adj	Func Rules	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrAdj(N)=(M,P)
+noun_adj	Func Rules	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrAdj(N)=(F,S)
+noun_adj	Func Rules	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrAdj(N)=(F,S)
+noun_adj	Func Rules	R_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrAdj(N)=(F,D)
+noun_adj	Func Rules	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrAdj(N)=(F,P)
+noun_adj	Func Rules	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrAdj(N)=(F,S)
+noun_adj	Form Rules	R_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrAdj(N)=(M,S)
+noun_adj	Form Rules	R_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrAdj(N)=(M,D)
+noun_adj	Form Rules	R_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrAdj(N)=(M,P)
+noun_adj	Form Rules	R_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrAdj(N)=(F,S)
+noun_adj	Form Rules	R_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrAdj(N)=(F,S)
+noun_adj	Form Rules	R_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrAdj(N)=(F,D)
+noun_adj	Form Rules	R_FORM_FP_R	F	P	*	*	*	R	*		FP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrAdj(N)=(F,P)
+noun_adj	Form Rules	R_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrAdj(N)=(F,S)
+noun_adj	Extended	R_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrAdj(N)=(M,S)
+noun_adj	Extended	R_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrAdj(N)=(M,D)
+noun_adj	Extended	R_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrAdj(N)=(M,P)
+noun_adj	Extended	R_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrAdj(N)=(F,S)
+noun_adj	Extended	R_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrAdj(N)=(F,S)
+noun_adj	Extended	R_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrAdj(N)=(F,D)
+noun_adj	Extended	R_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrAdj(N)=(F,P)
+noun_adj	Extended	R_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrAdj(N)=(F,S)
+noun_adj	Extended	R_ADJ_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrAdj(N)=(F,S)
+noun_adj	Extended	R_ADJ_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrAdj(N)=(M,P)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrPred(N)=(M,S)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrPred(N)=(M,D)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrPred(N)=(M,P)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrPred(N)=(F,S)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrPred(N)=(F,D)
+subj_pred	Form Match	R_SUBJPRED_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrPred(N)=(F,P)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrPred(N)=(M,S)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrPred(N)=(M,D)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrPred(N)=(M,P)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrPred(N)=(F,S)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrPred(N)=(F,D)
+subj_pred	Func Match	R_SUBJPRED_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrPred(N)=(F,P)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrPred(N)=(M,S)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrPred(N)=(M,D)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrPred(N)=(M,P)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrPred(N)=(F,S)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrPred(N)=(F,S)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrPred(N)=(F,D)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrPred(N)=(F,P)
+subj_pred	Func Rules	R_SUBJPRED_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrPred(N)=(F,S)
+subj_pred	Form Rules	R_SUBJPRED_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrPred(N)=(M,S)
+subj_pred	Form Rules	R_SUBJPRED_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrPred(N)=(M,D)
+subj_pred	Form Rules	R_SUBJPRED_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrPred(N)=(M,P)
+subj_pred	Form Rules	R_SUBJPRED_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrPred(N)=(F,S)
+subj_pred	Form Rules	R_SUBJPRED_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrPred(N)=(F,S)
+subj_pred	Form Rules	R_SUBJPRED_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrPred(N)=(F,D)
+subj_pred	Form Rules	R_SUBJPRED_FORM_FP_R	F	P	*	*	*	R	*		FP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrPred(N)=(F,P)
+subj_pred	Form Rules	R_SUBJPRED_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrPred(N)=(F,S)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrPred(N)=(M,S)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrPred(N)=(M,D)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrPred(N)=(M,P)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrPred(N)=(F,S)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrPred(N)=(F,S)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrPred(N)=(F,D)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrPred(N)=(F,P)
+subj_pred	Extended	R_SUBJPRED_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrPred(N)=(F,S)
+subj_pred	Extended	R_SUBJPRED_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrPred(N)=(F,S)
+subj_pred	Extended	R_SUBJPRED_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrPred(N)=(M,P)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrHaal(N)=(M,S)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrHaal(N)=(M,D)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrHaal(N)=(M,P)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrHaal(N)=(F,S)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrHaal(N)=(F,D)
+haal_dp	Form Match	R_HAAL_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrHaal(N)=(F,P)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrHaal(N)=(M,S)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrHaal(N)=(M,D)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrHaal(N)=(M,P)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrHaal(N)=(F,S)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrHaal(N)=(F,D)
+haal_dp	Func Match	R_HAAL_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrHaal(N)=(F,P)
+haal_dp	Func Rules	R_HAAL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrHaal(N)=(M,S)
+haal_dp	Func Rules	R_HAAL_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrHaal(N)=(M,D)
+haal_dp	Func Rules	R_HAAL_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrHaal(N)=(M,P)
+haal_dp	Func Rules	R_HAAL_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrHaal(N)=(F,S)
+haal_dp	Func Rules	R_HAAL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrHaal(N)=(F,S)
+haal_dp	Func Rules	R_HAAL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrHaal(N)=(F,D)
+haal_dp	Func Rules	R_HAAL_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrHaal(N)=(F,P)
+haal_dp	Func Rules	R_HAAL_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrHaal(N)=(F,S)
+haal_dp	Form Rules	R_HAAL_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrHaal(N)=(M,S)
+haal_dp	Form Rules	R_HAAL_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrHaal(N)=(M,D)
+haal_dp	Form Rules	R_HAAL_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrHaal(N)=(M,P)
+haal_dp	Form Rules	R_HAAL_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrHaal(N)=(F,S)
+haal_dp	Form Rules	R_HAAL_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrHaal(N)=(F,S)
+haal_dp	Form Rules	R_HAAL_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrHaal(N)=(F,D)
+haal_dp	Form Rules	R_HAAL_FORM_FP_R	F	P	*	*	*	R	*		FP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrHaal(N)=(F,P)
+haal_dp	Form Rules	R_HAAL_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrHaal(N)=(F,S)
+haal_dp	Extended	R_HAAL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrHaal(N)=(M,S)
+haal_dp	Extended	R_HAAL_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrHaal(N)=(M,D)
+haal_dp	Extended	R_HAAL_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrHaal(N)=(M,P)
+haal_dp	Extended	R_HAAL_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrHaal(N)=(F,S)
+haal_dp	Extended	R_HAAL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrHaal(N)=(F,S)
+haal_dp	Extended	R_HAAL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrHaal(N)=(F,D)
+haal_dp	Extended	R_HAAL_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrHaal(N)=(F,P)
+haal_dp	Extended	R_HAAL_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrHaal(N)=(F,S)
+haal_dp	Extended	R_HAAL_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrHaal(N)=(F,S)
+haal_dp	Extended	R_HAAL_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrHaal(N)=(M,P)
+dem	Form Match	R_DEM_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrDem(N)=(M,S)
+dem	Form Match	R_DEM_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrDem(N)=(M,D)
+dem	Form Match	R_DEM_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrDem(N)=(M,P)
+dem	Form Match	R_DEM_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrDem(N)=(F,S)
+dem	Form Match	R_DEM_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrDem(N)=(F,D)
+dem	Form Match	R_DEM_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrDem(N)=(F,P)
+dem	Func Match	R_DEM_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrDem(N)=(M,S)
+dem	Func Match	R_DEM_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrDem(N)=(M,D)
+dem	Func Match	R_DEM_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrDem(N)=(M,P)
+dem	Func Match	R_DEM_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrDem(N)=(F,S)
+dem	Func Match	R_DEM_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrDem(N)=(F,D)
+dem	Func Match	R_DEM_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrDem(N)=(F,P)
+dem	Func Rules	R_DEM_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrDem(N)=(M,S)
+dem	Func Rules	R_DEM_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrDem(N)=(M,D)
+dem	Func Rules	R_DEM_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrDem(N)=(M,P)
+dem	Func Rules	R_DEM_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrDem(N)=(F,S)
+dem	Func Rules	R_DEM_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrDem(N)=(F,S)
+dem	Func Rules	R_DEM_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrDem(N)=(F,D)
+dem	Func Rules	R_DEM_FUNCTION_FP_R	*	*	*	F	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrDem(N)=(M,P)
+dem	Func Rules	R_DEM_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrDem(N)=(F,S)
+dem	Form Rules	R_DEM_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrDem(N)=(M,S)
+dem	Form Rules	R_DEM_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrDem(N)=(M,D)
+dem	Form Rules	R_DEM_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrDem(N)=(M,P)
+dem	Form Rules	R_DEM_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrDem(N)=(F,S)
+dem	Form Rules	R_DEM_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrDem(N)=(F,S)
+dem	Form Rules	R_DEM_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrDem(N)=(F,D)
+dem	Form Rules	R_DEM_FORM_FP_R	F	P	*	*	*	R	*		MP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrDem(N)=(M,P)
+dem	Form Rules	R_DEM_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrDem(N)=(F,S)
+dem	Extended	R_DEM_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrDem(N)=(M,S)
+dem	Extended	R_DEM_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrDem(N)=(M,D)
+dem	Extended	R_DEM_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrDem(N)=(M,P)
+dem	Extended	R_DEM_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrDem(N)=(F,S)
+dem	Extended	R_DEM_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrDem(N)=(F,S)
+dem	Extended	R_DEM_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrDem(N)=(F,D)
+dem	Extended	R_DEM_FUNCTION_FP_R	*	*	*	F	P	R	*		MP (syncretic)	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrDem(N)=(M,P)
+dem	Extended	R_DEM_FUNCTION_FP	*	*	*	F	P	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,*) → AgrDem(N)=(F,S)
+dem	Extended	R_DEM_EXT_G	*	*	*	*	P	R	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,R) ∧ Semantic_Type(N)=G → AgrDem(N)=(F,S)
+dem	Extended	R_DEM_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrDem(N)=(M,P)
+rel	Form Match	R_REL_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) → AgrRel(N)=(M,S)
+rel	Form Match	R_REL_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) → AgrRel(N)=(M,D)
+rel	Form Match	R_REL_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(N)=(M,P,*) → AgrRel(N)=(M,P)
+rel	Form Match	R_REL_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) → AgrRel(N)=(F,S)
+rel	Form Match	R_REL_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) → AgrRel(N)=(F,D)
+rel	Form Match	R_REL_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(N)=(F,P,*) → AgrRel(N)=(F,P)
+rel	Func Match	R_REL_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(N)=(M,S,*) → AgrRel(N)=(M,S)
+rel	Func Match	R_REL_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(N)=(M,D,*) → AgrRel(N)=(M,D)
+rel	Func Match	R_REL_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(N)=(M,P,*) → AgrRel(N)=(M,P)
+rel	Func Match	R_REL_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(N)=(F,S,*) → AgrRel(N)=(F,S)
+rel	Func Match	R_REL_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(N)=(F,D,*) → AgrRel(N)=(F,D)
+rel	Func Match	R_REL_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(N)=(F,P,*) → AgrRel(N)=(F,P)
+rel	Func Rules	R_REL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrRel(N)=(M,S)
+rel	Func Rules	R_REL_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrRel(N)=(M,D)
+rel	Func Rules	R_REL_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrRel(N)=(M,P)
+rel	Func Rules	R_REL_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrRel(N)=(F,S)
+rel	Func Rules	R_REL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrRel(N)=(F,S)
+rel	Func Rules	R_REL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrRel(N)=(F,D)
+rel	Func Rules	R_REL_FUNCTION_FP_R	*	*	*	F	P	R	*		FP	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrRel(N)=(F,P)
+rel	Func Rules	R_REL_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrRel(N)=(F,S)
+rel	Form Rules	R_REL_FORM_MS	M	S	*	*	*	*	*		MS	*	F(N)=(M,S,*) ∧ G(N)=(*,*,*) → AgrRel(N)=(M,S)
+rel	Form Rules	R_REL_FORM_MD	M	D	*	*	*	*	*		MD	*	F(N)=(M,D,*) ∧ G(N)=(*,*,*) → AgrRel(N)=(M,D)
+rel	Form Rules	R_REL_FORM_MP_R	M	P	*	*	*	R	*		MP	*	F(N)=(M,P,*) ∧ G(N)=(*,*,R) → AgrRel(N)=(M,P)
+rel	Form Rules	R_REL_FORM_MP_I	M	P	*	*	*	I	*		FS	*	F(N)=(M,P,*) ∧ G(N)=(*,*,I) → AgrRel(N)=(F,S)
+rel	Form Rules	R_REL_FORM_FS	F	S	*	*	*	*	*		FS	*	F(N)=(F,S,*) ∧ G(N)=(*,*,*) → AgrRel(N)=(F,S)
+rel	Form Rules	R_REL_FORM_FD	F	D	*	*	*	*	*		FD	*	F(N)=(F,D,*) ∧ G(N)=(*,*,*) → AgrRel(N)=(F,D)
+rel	Form Rules	R_REL_FORM_FP_R	F	P	*	*	*	R	*		FP	*	F(N)=(F,P,*) ∧ G(N)=(*,*,R) → AgrRel(N)=(F,P)
+rel	Form Rules	R_REL_FORM_FP_I	F	P	*	*	*	I	*		FS	*	F(N)=(F,P,*) ∧ G(N)=(*,*,I) → AgrRel(N)=(F,S)
+rel	Extended	R_REL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(N)=(*,*,*) ∧ G(N)=(M,S,*) → AgrRel(N)=(M,S)
+rel	Extended	R_REL_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(N)=(*,*,*) ∧ G(N)=(M,D,*) → AgrRel(N)=(M,D)
+rel	Extended	R_REL_FUNCTION_MP_R	*	*	*	M	P	R	*		MP	*	F(N)=(*,*,*) ∧ G(N)=(M,P,R) → AgrRel(N)=(M,P)
+rel	Extended	R_REL_FUNCTION_MP_I	*	*	*	M	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(M,P,I) → AgrRel(N)=(F,S)
+rel	Extended	R_REL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,S,*) → AgrRel(N)=(F,S)
+rel	Extended	R_REL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(N)=(*,*,*) ∧ G(N)=(F,D,*) → AgrRel(N)=(F,D)
+rel	Extended	R_REL_FUNCTION_FP_R	*	*	*	F	P	R	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,R) → AgrRel(N)=(F,S)
+rel	Extended	R_REL_FUNCTION_FP_I	*	*	*	F	P	I	*		FS	*	F(N)=(*,*,*) ∧ G(N)=(F,P,I) → AgrRel(N)=(F,S)
+rel	Extended	R_REL_EXT_G	*	*	*	*	P	*	G		FS	BLOCKED	F(N)=(*,*,*) ∧ G(N)=(*,P,*) ∧ Semantic_Type(N)=G → AgrRel(N)=(F,S)
+rel	Extended	R_REL_EXT_D	*	*	*	*	*	I	D		MP	LICENSED	F(N)=(*,*,*) ∧ G(N)=(*,*,I) ∧ Semantic_Type(N)=D → AgrRel(N)=(M,P)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_MS	*	*	*	M	S	*	*		MS	*	G(V)=(M,S,*) → AgrHaal(V)=(M,S)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_MD	*	*	*	M	D	*	*		MD	*	G(V)=(M,D,*) → AgrHaal(V)=(M,D)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_MP	*	*	*	M	P	*	*		MP	*	G(V)=(M,P,*) → AgrHaal(V)=(M,P)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_FS	*	*	*	F	S	*	*		FS	*	G(V)=(F,S,*) → AgrHaal(V)=(F,S)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_FD	*	*	*	F	D	*	*		FD	*	G(V)=(F,D,*) → AgrHaal(V)=(F,D)
+haal_verb	Func Match	R_HAAL_VERBCTRL_FUNC_SIMPLE_FP	*	*	*	F	P	*	*		FP	*	G(V)=(F,P,*) → AgrHaal(V)=(F,P)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_MS	M	S	*	*	*	*	*		MS	*	F(V)=(M,S,*) → AgrHaal(V)=(M,S)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_MD	M	D	*	*	*	*	*		MD	*	F(V)=(M,D,*) → AgrHaal(V)=(M,D)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_MP	M	P	*	*	*	*	*		MP	*	F(V)=(M,P,*) → AgrHaal(V)=(M,P)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_FS	F	S	*	*	*	*	*		FS	*	F(V)=(F,S,*) → AgrHaal(V)=(F,S)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_FD	F	D	*	*	*	*	*		FD	*	F(V)=(F,D,*) → AgrHaal(V)=(F,D)
+haal_verb	Form Match	R_HAAL_VERBCTRL_FORM_SIMPLE_FP	F	P	*	*	*	*	*		FP	*	F(V)=(F,P,*) → AgrHaal(V)=(F,P)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(V)=(*,*,*) ∧ G(V)=(M,S,*) → AgrHaal(V)=(M,S)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_MD	*	*	*	M	D	*	*		MD	*	F(V)=(*,*,*) ∧ G(V)=(M,D,*) → AgrHaal(V)=(M,D)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_MP	*	*	*	M	P	*	*		MP	*	F(V)=(*,*,*) ∧ G(V)=(M,P,*) → AgrHaal(V)=(M,P)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(V)=(*,*,*) ∧ G(V)=(F,S,*) → AgrHaal(V)=(F,S)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(V)=(*,*,*) ∧ G(V)=(F,D,*) → AgrHaal(V)=(F,D)
+haal_verb	Func Rules	R_HAAL_VERBCTRL_FUNCTION_FP	*	*	*	F	P	*	*		FP	*	F(V)=(*,*,*) ∧ G(V)=(F,P,*) → AgrHaal(V)=(F,P)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_MS	M	S	*	*	*	*	*		MS	*	F(V)=(M,S,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(M,S)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_MD	M	D	*	*	*	*	*		MD	*	F(V)=(M,D,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(M,D)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_MP	M	P	*	*	*	*	*		MP	*	F(V)=(M,P,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(M,P)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_FS	F	S	*	*	*	*	*		FS	*	F(V)=(F,S,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(F,S)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_FD	F	D	*	*	*	*	*		FD	*	F(V)=(F,D,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(F,D)
+haal_verb	Form Rules	R_HAAL_VERBCTRL_FORM_FP	F	P	*	*	*	*	*		FP	*	F(V)=(F,P,*) ∧ G(V)=(*,*,*) → AgrHaal(V)=(F,P)
+haal_verb	Extended	R_HAAL_VERBCTRL_FUNCTION_MS	*	*	*	M	S	*	*		MS	*	F(V)=(*,*,*) ∧ G(V)=(M,S,*) → AgrHaal(V)=(M,S)
+haal_verb	Extended	R_HAAL_VERBCTRL_FUNCTION_MP	*	*	*	M	P	*	*		MP	*	F(V)=(*,*,*) ∧ G(V)=(M,P,*) → AgrHaal(V)=(M,P)
+haal_verb	Extended	R_HAAL_VERBCTRL_FUNCTION_FS	*	*	*	F	S	*	*		FS	*	F(V)=(*,*,*) ∧ G(V)=(F,S,*) → AgrHaal(V)=(F,S)
+haal_verb	Extended	R_HAAL_VERBCTRL_FUNCTION_FD	*	*	*	F	D	*	*		FD	*	F(V)=(*,*,*) ∧ G(V)=(F,D,*) → AgrHaal(V)=(F,D)
+haal_verb	Extended	R_HAAL_VERBCTRL_FUNCTION_FP	*	*	*	F	P	*	*		FP	*	F(V)=(*,*,*) ∧ G(V)=(F,P,*) → AgrHaal(V)=(F,P)
+num_noun	Form Match	R_NUMN_1_M_FORM_SIMPLE	M	S	*	*	*	*	*	1	M	*	NUM=1 ∧ F(N)=(M,S,*) → CardinalGen=(M)
+num_noun	Form Match	R_NUMN_1_F_FORM_SIMPLE	F	S	*	*	*	*	*	1	F	*	NUM=1 ∧ F(N)=(F,S,*) → CardinalGen=(F)
+num_noun	Form Match	R_NUMN_2_M_FORM_SIMPLE	M	D	*	*	*	*	*	2	M	*	NUM=2 ∧ F(N)=(M,D,*) → CardinalGen=(M)
+num_noun	Form Match	R_NUMN_2_F_FORM_SIMPLE	F	D	*	*	*	*	*	2	F	*	NUM=2 ∧ F(N)=(F,D,*) → CardinalGen=(F)
+num_noun	Func Match	R_NUMN_1_M_FUNC_SIMPLE	*	*	*	M	S	*	*	1	M	*	NUM=1 ∧ G(N)=(M,S,*) → CardinalGen=(M)
+num_noun	Func Match	R_NUMN_1_F_FUNC_SIMPLE	*	*	*	F	S	*	*	1	F	*	NUM=1 ∧ G(N)=(F,S,*) → CardinalGen=(F)
+num_noun	Func Match	R_NUMN_2_M_FUNC_SIMPLE	*	*	*	M	D	*	*	2	M	*	NUM=2 ∧ G(N)=(M,D,*) → CardinalGen=(M)
+num_noun	Func Match	R_NUMN_2_F_FUNC_SIMPLE	*	*	*	F	D	*	*	2	F	*	NUM=2 ∧ G(N)=(F,D,*) →CardinalGen=(F)
+num_noun	Form Rules	R_NUMN_1_M_FORM	M	S	*	*	*	*	*	1	M	*	NUM=1 ∧ F(N)=(M,S,*) → CardinalGen=(M)
+num_noun	Form Rules	R_NUMN_1_F_FORM	F	S	*	*	*	*	*	1	F	*	NUM=1 ∧ F(N)=(F,S,*) →CardinalGen=(F)
+num_noun	Form Rules	R_NUMN_2_M_FORM	M	D	*	*	*	*	*	2	M	*	NUM=2 ∧ F(N)=(M,D,*) → CardinalGen=(M)
+num_noun	Form Rules	R_NUMN_2_F_FORM	F	D	*	*	*	*	*	2	F	*	NUM=2 ∧ F(N)=(F,D,*) → CardinalGen=(F)
+num_noun	Func Rules	R_NUMN_1_M_FUNC	*	*	*	M	S	*	*	1	M	*	NUM=1 ∧ G(N)=(M,S,*) → CardinalGen=(M)
+num_noun	Func Rules	R_NUMN_1_F_FUNC	*	*	*	F	S	*	*	1	F	*	NUM=1 ∧ G(N)=(F,S,*) → CardinalGen=(F)
+num_noun	Func Rules	R_NUMN_2_M_FUNC	*	*	*	M	D	*	*	2	M	*	NUM=2 ∧ G(N)=(M,D,*) → CardinalGen=(M)
+num_noun	Func Rules	R_NUMN_2_F_FUNC	*	*	*	F	D	*	*	2	F	*	NUM=2 ∧ G(N)=(F,D,*) → CardinalGen=(F)
+num_noun	Extended	R_NUMN_1_M_FUNC	*	*	*	M	S	*	*	1	M	*	NUM=1 ∧ G(N)=(M,S,*) → CardinalGen=(M)
+num_noun	Extended	R_NUMN_1_F_FUNC	*	*	*	F	S	*	*	1	F	*	NUM=1 ∧ G(N)=(F,S,*) → CardinalGen=(F)
+num_noun	Extended	R_NUMN_2_M_FUNC	*	*	*	M	D	*	*	2	M	*	NUM=2 ∧ G(N)=(M,D,*) → CardinalGen=(M)
+num_noun	Extended	R_NUMN_2_F_FUNC	*	*	*	F	D	*	*	2	F	*	NUM=2 ∧ G(N)=(F,D,*) → CardinalGen=(F)
+num_noun	Form Match	R_CARD_3_10_M_FORM_SIMPLE	M	P	*	*	*	*	*	3-10	M	*	NUM∈[3..10] ∧ F(N)=(M,P,*) → CardinalGen=M
+num_noun	Form Match	R_CARD_3_10_F_FORM_SIMPLE	F	P	*	*	*	*	*	3-10	F	*	NUM∈[3..10] ∧ F(N)=(F,P,*) → CardinalGen=F
+num_noun	Func Match	R_CARD_3_10_M_FUNC_SIMPLE	*	*	*	M	P	*	*	3-10	M	*	NUM∈[3..10] ∧ G(N)=(M,P,*) → CardinalGen=M
+num_noun	Func Match	R_CARD_3_10_F_FUNC_SIMPLE	*	*	*	F	P	*	*	3-10	F	*	NUM∈[3..10] ∧ G(N)=(F,P,*) → CardinalGen=F
+num_noun	Form Rules	R_CARD_3_10_M_FORM	M	P	*	*	*	*	*	3-10	F	*	NUM∈[3..10] ∧ F(N)=(M,P,*) ∧ G(N)=(*,*,*) → CardinalGen=F
+num_noun	Form Rules	R_CARD_3_10_F_FORM	F	P	*	*	*	*	*	3-10	M	*	NUM∈[3..10] ∧ F(N)=(F,P,*) ∧ G(N)=(*,*,*) → CardinalGen=M
+num_noun	Func Rules	R_CARD_3_10_M_FUNC	*	*	*	M	P	*	*	3-10	F	*	NUM∈[3..10] ∧ G(N)=(M,P,*) → CardinalGen=F
+num_noun	Func Rules	R_CARD_3_10_F_FUNC	*	*	*	F	P	*	*	3-10	M	*	NUM∈[3..10] ∧ G(N)=(F,P,*) → CardinalGen=M
+num_noun	Extended	R_CARD_3_10_M_FUNC_EXT	*	*	*	M	P	*	*	3-10	F	*	NUM∈[3..10] ∧ G(N)=(M,P,*) → CardinalGen=F
+num_noun	Extended	R_CARD_3_10_F_FUNC_EXT	*	*	*	F	P	*	*	3-10	M	*	NUM∈[3..10] ∧ G(N)=(F,P,*) → CardinalGen=M
+num_noun	Form Match	R_CARD_11_12_M_SIMPLE	M	S	*	*	*	*	*	11-12	Unit=M∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Form Match	R_CARD_11_12_F_SIMPLE	F	S	*	*	*	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Func Match	R_CARD_11_12_M_FUNC_SIMPLE	*	*	*	M	S	*	*	11-12	Unit=M∧ Ten=M	*	NUM∈{11,12} ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Func Match	R_CARD_11_12_F_FUNC_SIMPLE	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Func Rules	R_CARD_11_12_M_FUNC	*	*	*	M	S	*	*	11-12	Unit=M∧ Ten=M	*	NUM∈{11,12} ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Func Rules	R_CARD_11_12_F_FUNC	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Form Rules	R_CARD_11_12_M_FORM	M	S	*	*	*	*	*	11-12	Unit=M∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Form Rules	R_CARD_11_12_F_FORM	F	S	*	*	*	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Extended	R_CARD_11_12_M_FUNC	*	*	*	M	S	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Extended	R_CARD_11_12_F_FUNC	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Func Match	R_CARD_13_19_M_FUNC_SIMPLE	*	*	*	M	S	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Func Match	R_CARD_13_19_F_FUNC_SIMPLE	*	*	*	F	S	*	*	13-19	Unit=F∧ Ten=F	*	NUM∈[13..19] ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Form Match	R_CARD_13_19_M_FORM_SIMPLE	M	S	*	*	*	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+num_noun	Form Match	R_CARD_13_19_F_FORM_SIMPLE	F	S	*	*	*	*	*	13-19	Unit=F ∧ Ten=F	*	NUM∈[13..19] ∧ F(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+num_noun	Func Rules	R_CARD_13_19_M_FUNC	*	*	*	M	S	*	*	13-19	Unit=F ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=F ∧ TenGen=M
+num_noun	Func Rules	R_CARD_13_19_F_FUNC	*	*	*	F	S	*	*	13-19	Unit=M ∧ Ten=F	*	NUM∈[13..19] ∧ G(N)=(F,S,*) → UnitGen=M ∧ TenGen=F
+num_noun	Form Rules	R_CARD_13_19_M_FORM	M	S	*	*	*	*	*	13-19	Unit=F ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(M,S,*) → UnitGen=F ∧ TenGen=M
+num_noun	Form Rules	R_CARD_13_19_F_FORM	F	S	*	*	*	*	*	13-19	Unit=M∧ Ten=F	*	NUM∈[13..19] ∧ F(N)=(F,S,*) → UnitGen=M ∧ TenGen=F
+num_noun	Extended	R_CARD_13_19_M_FUNC	*	*	*	M	S	*	*	13-19	Unit=F ∧ Ten=M	*	NUM∈[13..19] ∧ G(N)=(M,S,*) → UnitGen=F ∧ TenGen=M
+num_noun	Extended	R_CARD_13_19_F_FUNC	*	*	*	F	S	*	*	13-19	Unit=M ∧ Ten=F	*	NUM∈[13..19] ∧ G(N)=(F,S,*) → UnitGen=M ∧ TenGen=F
+num_noun	Func Match	R_CARD_21_99_M_FUNC_SIMPLE	*	*	*	M	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ G(N)=(M,S,*) → UnitGen=M
+num_noun	Func Match	R_CARD_21_99_F_FUNC_SIMPLE	*	*	*	F	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ G(N)=(F,S,*) → UnitGen=F
+num_noun	Form Match	R_CARD_21_99_M_FORM_SIMPLE	M	S	*	*	*	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(M,S,*) → UnitGen=M
+num_noun	Form Match	R_CARD_21_99_F_FORM_SIMPLE	F	S	*	*	*	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(F,S,*) → UnitGen=F
+num_noun	Func Rules	R_CARD_21_99_M_FUNC	*	*	*	M	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ G(N)=(M,S,*) → UnitGen=F
+num_noun	Func Rules	R_CARD_21_99_F_FUNC	*	*	*	F	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ G(N)=(F,S,*) → UnitGen=M
+num_noun	Form Rules	R_CARD_21_99_M_FORM	M	S	*	*	*	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(M,S,*) → UnitGen=F
+num_noun	Form Rules	R_CARD_21_99_F_FORM	F	S	*	*	*	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(F,S,*) → UnitGen=M
+num_noun	Extended	R_CARD_21_99_M_FUNC	*	*	*	M	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ G(N)=(M,S,*) → UnitGen=F
+num_noun	Extended	R_CARD_21_99_F_FUNC	*	*	*	F	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ G(N)=(F,S,*) → UnitGen=M
+num_noun	Form Rules	R_CARD_UQUD_FORM	*	S	*	*	*	*	*	20-90	NA	*	NUM∈{20,30,40,50,60,70,80,90} ∧ F(N)=(*,S,*) → TenGen=∅
+num_noun	Func Rules	R_FUNC_CARD_UQUD	*	*	*	*	S	*	*	20-90	NA	*	NUM∈{20,30,40,50,60,70,80,90} ∧ G(N)=(*,S,*) → TenGen=∅
+num_noun	Func Match	R_FUNC_SIMPLE_CARD_UQUD	*	*	*	*	S	*	*	20-90	NA	*	NUM∈{20,30,40,50,60,70,80,90} ∧ G(N)=(*,S,*) → TenGen=∅
+num_noun	Form Match	R_CARD_UQUD_FORM_SIMPLE	*	S	*	*	*	*	*	20-90	NA	*	NUM∈{20,30,40,50,60,70,80,90} ∧ F(N)=(*,S,*) → TenGen=∅
+ordinal	Form Match	R_ORD_1_10_M_FORM_SIMPLE	M	S	*	*	*	*	*	1-10	M	*	NUM∈[1..10] ∧ F(N)=(M,S,*) → OrdGen=M
+ordinal	Form Match	R_ORD_1_10_F_FORM_SIMPLE	F	S	*	*	*	*	*	1-10	F	*	NUM∈[1..10] ∧ F(N)=(F,S,*) → OrdGen=F
+ordinal	Func Match	R_ORD_1_10_M_FUNC_SIMPLE	*	*	*	M	S	*	*	1-10	M	*	NUM∈[1..10] ∧ G(N)=(M,S,*) → OrdGen=M
+ordinal	Func Match	R_ORD_1_10_F_FUNC_SIMPLE	*	*	*	F	S	*	*	1-10	F	*	NUM∈[1..10] ∧ G(N)=(F,S,*) → OrdGen=F
+ordinal	Form Rules	R_ORD_1_10_M_FORM	M	S	*	*	*	*	*	1-10	M	*	NUM∈[1..10] ∧ F(N)=(M,S,*) ∧ G(N)=(*,*,*) → OrdGen=M
+ordinal	Form Rules	R_ORD_1_10_F_FORM	F	S	*	*	*	*	*	1-10	F	*	NUM∈[1..10] ∧ F(N)=(F,S,*) ∧ G(N)=(*,*,*) → OrdGen=F
+ordinal	Func Rules	R_ORD_1_10_M_FUNC	*	*	*	M	S	*	*	1-10	M	*	NUM∈[1..10] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → OrdGen=M
+ordinal	Func Rules	R_ORD_1_10_F_FUNC	*	*	*	F	S	*	*	1-10	F	*	NUM∈[1..10] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → OrdGen=F
+ordinal	Func Rules	R_ORD_1_10_MP_I_DEFLECT	*	*	*	M	P	I	*	1-10	F	*	ORD∈[1..10] ∧ G(N)=(M,P,I) → OrdGen=F
+ordinal	Extended	R_ORD_1_10_M_FUNC	*	*	*	M	S	*	*	1-10	M	*	NUM∈[1..10] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → OrdGen=M
+ordinal	Extended	R_ORD_1_10_F_FUNC	*	*	*	F	S	*	*	1-10	F	*	NUM∈[1..10] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → OrdGen=F
+ordinal	Extended	R_ORD_1_10_MP_I_EXT_DEFLECT	*	*	*	M	P	I	*	1-10	F	*	ORD∈[1..10] ∧ G(N)=(M,P,I) → OrdGen=F
+ordinal	Extended	R_ORD_1_10_EXT_G	*	S	*	*	P	*	G	1-10	F	*	NUM∈[1..10] ∧ F(N)=(*,S,*) ∧ G(N)=(*,P,*) ∧ Semantic_Type(N)=G → OrdGen=(F)
+ordinal	Form Match	R_ORD_11_12_M_FORM_SIMPLE	M	S	*	*	*	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Form Match	R_ORD_11_12_F_FORM_SIMPLE	F	S	*	*	*	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Func Match	R_ORD_11_12_M_FUNC_SIMPLE	*	*	*	M	S	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Func Match	R_ORD_11_12_F_FUNC_SIMPLE	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Form Rules	R_ORD_11_12_M_FORM	M	S	*	*	*	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(M,S,*) ∧ G(N)=(*,*,*) → UnitGen=M ∧ TenGen=M
+ordinal	Form Rules	R_ORD_11_12_F_FORM	F	S	*	*	*	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(F,S,*) ∧ G(N)=(*,*,*) → UnitGen=F ∧ TenGen=F
+ordinal	Func Rules	R_ORD_11_12_M_FUNC	*	*	*	M	S	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Func Rules	R_ORD_11_12_F_FUNC	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Extended	R_ORD_11_12_M_FUNC	*	*	*	M	S	*	*	11-12	Unit=M ∧ Ten=M	*	NUM∈{11,12} ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Extended	R_ORD_11_12_F_FUNC	*	*	*	F	S	*	*	11-12	Unit=F ∧ Ten=F	*	NUM∈{11,12} ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Extended	R_ORD_11_12_EXT_G	*	S	*	*	P	*	G	11-12	UnitGen=F ∧ TenGen=F	*	NUM∈{11,12} ∧ F(N)=(*,S,*) ∧ G(N)=(*,P,*) ∧ Semantic_Type(N)=G → UnitGen=F ∧ TenGen=F
+ordinal	Form Match	R_ORD_13_19_M_FORM_SIMPLE	M	S	*	*	*	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Form Match	R_ORD_13_19_F_FORM_SIMPLE	F	S	*	*	*	*	*	13-19	Unit=F ∧ Ten=F	*	NUM∈[13..19] ∧ F(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Func Match	R_ORD_13_19_M_FUNC_SIMPLE	*	*	*	M	S	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Func Match	R_ORD_13_19_F_FUNC_SIMPLE	*	*	*	F	S	*	*	13-19	Unit=F ∧ Ten=F	*	NUM∈[13..19] ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Form Rules	R_ORD_13_19_M_FORM	M	S	*	*	*	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(M,S,*) ∧ G(N)=(*,*,*) → UnitGen=M ∧ TenGen=M
+ordinal	Form Rules	R_ORD_13_19_F_FORM	F	S	*	*	*	*	*	13-19	Unit=F ∧ Ten= F	*	NUM∈[13..19] ∧ F(N)=(F,S,*) ∧ G(N)=(*,*,*) → UnitGen=F ∧ TenGen=F
+ordinal	Func Rules	R_ORD_13_19_M_FUNC	*	*	*	M	S	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Func Rules	R_ORD_13_19_F_FUNC	*	*	*	F	S	*	*	13-19	Unit=F ∧ Ten=F	*	NUM∈[13..19] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Extended	R_ORD_13_19_M_FUNC	*	*	*	M	S	*	*	13-19	Unit=M ∧ Ten=M	*	NUM∈[13..19] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M ∧ TenGen=M
+ordinal	Extended	R_ORD_13_19_F_FUNC	*	*	*	F	S	*	*	13-19	Unit=F ∧ Ten=F	*	NUM∈[13..19] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F ∧ TenGen=F
+ordinal	Extended	R_ORD_13_19_EXT_G	*	S	*	*	P	*	G	13-19	UnitGen=F ∧ TenGen=F	*	NUM∈[13..19] ∧ F(N)=(*,S,*) ∧ G(N)=(*,P,*) ∧ Semantic_Type(N)=G → UnitGen=F ∧ TenGen=F
+ordinal	Form Match	R_ORD_21_99_M_FORM_SIMPLE	M	S	*	*	*	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(M,S,*) → UnitGen=M
+ordinal	Form Match	R_ORD_21_99_F_FORM_SIMPLE	F	S	*	*	*	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(F,S,*) → UnitGen=F
+ordinal	Func Match	R_ORD_21_99_M_FUNC_SIMPLE	*	*	*	M	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ G(N)=(M,S,*) → UnitGen=M
+ordinal	Func Match	R_ORD_21_99_F_FUNC_SIMPLE	*	*	*	F	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ G(N)=(F,S,*) → UnitGen=F
+ordinal	Form Rules	R_ORD_21_99_M_FORM	M	S	*	*	*	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(M,S,*) ∧ G(N)=(*,*,*) → UnitGen=M
+ordinal	Form Rules	R_ORD_21_99_F_FORM	F	S	*	*	*	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(F,S,*) ∧ G(N)=(*,*,*) → UnitGen=F
+ordinal	Func Rules	R_ORD_21_99_M_FUNC	*	*	*	M	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M
+ordinal	Func Rules	R_ORD_21_99_F_FUNC	*	*	*	F	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F
+ordinal	Extended	R_ORD_21_99_M_FUNC	*	*	*	M	S	*	*	21-99	Unit=M	*	NUM∈[21..99] ∧ F(N)=(*,*,*) ∧ G(N)=(M,S,*) → UnitGen=M
+ordinal	Extended	R_ORD_21_99_F_FUNC	*	*	*	F	S	*	*	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(*,*,*) ∧ G(N)=(F,S,*) → UnitGen=F
+ordinal	Extended	R_ORD_21_99_EXT_G	*	S	*	*	P	*	G	21-99	Unit=F	*	NUM∈[21..99] ∧ F(N)=(*,S,*) ∧ G(N)=(*,P,*) ∧ Semantic_Type(N)=G → UnitGen=F
+ordinal	Form Match	R_ORD_UQUD_FORM_SIMPLE	*	S	*	*	*	*	*	20-90	NA	*	NUM∈{20..90} ∧ F(N)=(*,S,*) → TenGen=∅
+ordinal	Func Match	R_ORD_UQUD_FUNC_SIMPLE	*	*	*	*	S	*	*	20-90	NA	*	NUM∈{20..90} ∧ G(N)=(*,S,*) → TenGen=∅
+ordinal	Form Rules	R_ORD_UQUD_FORM	*	S	*	*	*	*	*	20-90	NA	*	NUM∈{20..90} ∧ F(N)=(*,S,*) → TenGen=∅
+ordinal	Func Rules	R_ORD_UQUD_FUNC	*	*	*	*	S	*	*	20-90	NA	*	NUM∈{20..90} ∧ G(N)=(*,S,*) → TenGen=∅
