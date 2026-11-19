@@ -16,12 +16,12 @@ aggregation values. Its [TSV file](lexicon/AGG_lexicon.tsv) includes lemmas,
 forms, functional features, rationality, and default and additional agreement
 patterns.
 
-| AGG value | Interpretation | Additional agreement option |
-|---|---|---|
-| `A` — Atomic | Individuated entity | None beyond GNR |
-| `C` — Collective | Non-individuated aggregate | None beyond GNR |
-| `G` — Groupable | Rational plural construed as a unit | Feminine singular |
-| `D` — Divisible | Unit accessed through its members | Masculine plural |
+| AGG value | Interpretation | Additional agreement option | Example |
+|---|---|---|---|
+| `A` — Atomic | Individuated entity | None beyond GNR | الوزير المهم، الوزراء المهمون، الكتاب المهم، الكتب المهمة |
+| `C` — Collective | Non-individuated aggregate | None beyond GNR | الشجر الجميل، الأشجار الجميلة|
+| `G` — Groupable | Rational plural construed as a unit | Feminine singular | قال العرب، العرب قالوا، **قالت** العرب، العرب **قالت**|
+| `D` — Divisible | Unit accessed through its members | Masculine plural | قال الفريق، الفريق قال، الفريق **قالوا**  |
 
 AGG is assigned at the lexeme level; its additional option may appear only
 with particular forms. The [lexicon README](lexicon/README.md) describes the
